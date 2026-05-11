@@ -2720,11 +2720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TT+DATN\\NguyenVanMinh22601125\\DUANCHAMCONG\\DUANCHAMCONG.csproj",
+      "projectUniqueName": "E:\\DUANCHAMCONG_09.05\\DUANCHAMCONG.csproj",
       "projectName": "DUANCHAMCONG",
-      "projectPath": "E:\\TT+DATN\\NguyenVanMinh22601125\\DUANCHAMCONG\\DUANCHAMCONG.csproj",
+      "projectPath": "E:\\DUANCHAMCONG_09.05\\DUANCHAMCONG.csproj",
       "packagesPath": "C:\\Users\\minhg\\.nuget\\packages\\",
-      "outputPath": "E:\\TT+DATN\\NguyenVanMinh22601125\\DUANCHAMCONG\\obj\\",
+      "outputPath": "E:\\DUANCHAMCONG_09.05\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
