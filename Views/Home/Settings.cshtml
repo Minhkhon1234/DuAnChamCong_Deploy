@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Cài Đặt Tài Khoản";
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+    <script src="~/js/settings.js" asp-append-version="true"></script>
+}
+
+<div class="user-content-inner">
+    <div class="settings-container" style="max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.05);">
+        <h3 style="margin-top: 0; margin-bottom: 25px; color: #333; text-align: center;">Cài Đặt Tài Khoản</h3>
+        
+        <form id="settingsForm">
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #4a5568;">Họ và Tên</label>
+                <input type="text" id="settingFullName" class="form-control" disabled style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #e2e8f0; background: #f7fafc; cursor: not-allowed;">
+                <small style="color: #a0aec0;">Họ tên chỉ có thể thay đổi bởi quản trị viên.</small>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #4a5568;">Email</label>
+                <input type="email" id="settingEmail" class="form-control" required style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #e2e8f0;">
+            </div>
+
+            <hr style="margin: 30px 0; border: 0; border-top: 1px solid #e2e8f0;">
+            <h4 style="margin-bottom: 20px; color: #4a5568;">Đổi Mật Khẩu</h4>
+
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #4a5568;">Mật khẩu hiện tại</label>
+                <input type="password" id="currentPassword" class="form-control" placeholder="Nhập mật khẩu hiện tại để xác nhận thay đổi" style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #e2e8f0;">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #4a5568;">Mật khẩu mới</label>
+                <input type="password" id="newPassword" class="form-control" placeholder="Để trống nếu không muốn đổi" style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #e2e8f0;">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 30px;">
+                <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #4a5568;">Xác nhận mật khẩu mới</label>
+                <input type="password" id="confirmPassword" class="form-control" placeholder="Nhập lại mật khẩu mới" style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #e2e8f0;">
+            </div>
+
+            <button type="submit" class="btn-action" style="width: 100%; background: var(--primary-color); padding: 14px; font-weight: bold; font-size: 16px;">Lưu Thay Đổi</button>
+        </form>
+    </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast-message"></div>
+
+<!-- Loading -->
+<div id="loadingOverlay" class="loading-overlay">
+    <div class="spinner"></div>
+    <p style="margin-top: 15px; font-weight: bold; color: #333;">Đang xử lý...</p>
+</div>

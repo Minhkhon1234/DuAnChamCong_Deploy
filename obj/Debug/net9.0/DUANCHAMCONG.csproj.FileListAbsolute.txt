@@ -1,0 +1,391 @@
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\bin\Debug\net9.0\appsettings.Development.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\bin\Debug\net9.0\appsettings.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.staticwebassets.runtime.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.staticwebassets.endpoints.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.exe
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.deps.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.runtimeconfig.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.dll
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.pdb
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.GeneratedMSBuildEditorConfig.editorconfig
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.AssemblyInfoInputs.cache
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.AssemblyInfo.cs
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.csproj.CoreCompileInputs.cache
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.MvcApplicationPartsAssemblyInfo.cache
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.RazorAssemblyInfo.cache
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.RazorAssemblyInfo.cs
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\scopedcss\bundle\DUANCHAMCONG.styles.css
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\scopedcss\projectbundle\DUANCHAMCONG.bundle.scp.css
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\blbo9rjdbz-b9sayid5wm.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\3wevq5x9db-61n19gt1b8.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\sgnzowtvip-xtxxf3hu2r.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\vvqgxuxq7r-bqjiyaj88i.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\vwnqjohv0q-c2jlpeoesf.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\xt69xcohdv-erw9l3u2r3.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\61jsu5u38m-aexeepp0ev.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\yisr7flp06-d7shbmvgxk.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\qr8qe2qzy3-ausgxo2sd3.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\hsq9vkbait-k8d9w2qqmf.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\ie45ymi2h1-cosvhxvwiu.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\jme1vlo51x-ub07r2b239.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\ugcw5war80-fvhpjtyr6v.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\4bd99m7h2i-b7pk76d08c.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\0i8a6qsf2q-fsbi9cje9m.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\ogp83b4n41-rzd6atqjts.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\0zedna1m10-ee0r1s7dh0.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\5eq059huyd-dxx9fxp4il.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\j68qm97f2l-jd9uben2k1.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\dziiekt9pr-khv3u5hwcm.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\8ssufc5675-r4e9w2rdcm.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\hej1av3rm5-lcd1t2u6c8.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\p4rgaibtcs-c2oey78nd0.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\yhpidk2ku4-tdbxkamptv.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\6li57wmfpo-j5mq2jizvt.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\sjgja6drh9-06098lyss8.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\idtr1eghll-nvvlpmu67g.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\ro2hmi90qf-s35ty4nyc5.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\zzb5wwoj8k-pj5nd1wqec.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\r2swobvoxd-46ein0sx1k.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\voc3dv3eyd-v0zj4ognzu.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\wodrag1xb0-37tfw0ft22.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\3luhoa685e-hrwsygsryq.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\po1ekjfs5j-pk9g2wxc8p.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\53fr2xzw2r-ft3s53vfgj.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\ivw2ydm6qg-6cfz1n2cew.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\7kvpzxttez-6pdc2jztkx.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\56ijtefra6-493y06b0oq.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\71rv5f9x2s-iovd86k7lj.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\a6nwwukjp7-vr1egmr9el.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\bpxpgu2jl8-kbrnm935zg.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\6vn2qw6866-jj8uyg4cgr.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\5c1agz0cb5-y7v9cxd14o.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\g1gommj3jr-notf2xhcfb.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\yzx5vbb5i3-h1s4sie4z3.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\ft3pyw8byg-63fj8s7r0e.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\q33x57660u-0j3bgjxly4.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\trytqhzno9-47otxtyo56.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\9ctoq3cl6m-4v8eqarkd7.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\995c82v0cd-356vix0kms.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\gqihjck5eu-83jwlth58m.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\lsj116qvqg-mrlpezrjn3.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\l4xecwetsy-lzl9nlhx6b.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\qkmdopl9vy-ag7o75518u.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\b376zvh2a3-x0q3zqp4vz.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\qdvgmn2k3v-0i3buxo5is.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\2leedxnh65-o1o13a6vjx.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\zae8jnza5d-ttgo8qnofa.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\n15xut11at-2z0ns9nrw6.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\6otcjvmgzm-muycvpuwrr.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\dy6up32q5y-87fc7y1x7t.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\92kgbiacws-mlv21k5csn.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\h5xnbv96bh-2y4vy8c5tf.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\compressed\1zs4elv0eo-2y4vy8c5tf.gz
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.build.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.development.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.DUANCHAMCONG.Microsoft.AspNetCore.StaticWebAssets.props
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.DUANCHAMCONG.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.build.DUANCHAMCONG.props
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.DUANCHAMCONG.props
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.DUANCHAMCONG.props
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.pack.json
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.dll
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\refint\DUANCHAMCONG.dll
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.pdb
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.genruntimeconfig.cache
+E:\TT+DATN\DUANCHAMCONG\DUANCHAMCONG\obj\Debug\net9.0\ref\DUANCHAMCONG.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.csproj.AssemblyReference.cache
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.GeneratedMSBuildEditorConfig.editorconfig
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.AssemblyInfoInputs.cache
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.AssemblyInfo.cs
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.csproj.CoreCompileInputs.cache
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.MvcApplicationPartsAssemblyInfo.cache
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.RazorAssemblyInfo.cache
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.RazorAssemblyInfo.cs
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\refint\DUANCHAMCONG.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.pdb
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\appsettings.Development.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.staticwebassets.endpoints.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\appsettings.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.staticwebassets.runtime.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.exe
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.deps.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.runtimeconfig.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.pdb
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Humanizer.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\System.Drawing.Common.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\System.Runtime.Caching.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\System.Security.Permissions.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\System.Windows.Extensions.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\scopedcss\bundle\DUANCHAMCONG.styles.css
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\scopedcss\projectbundle\DUANCHAMCONG.bundle.scp.css
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\blbo9rjdbz-b9sayid5wm.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\3wevq5x9db-61n19gt1b8.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\sgnzowtvip-xtxxf3hu2r.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\vvqgxuxq7r-bqjiyaj88i.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\vwnqjohv0q-c2jlpeoesf.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\xt69xcohdv-erw9l3u2r3.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\61jsu5u38m-aexeepp0ev.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\yisr7flp06-d7shbmvgxk.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\qr8qe2qzy3-ausgxo2sd3.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\hsq9vkbait-k8d9w2qqmf.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\ie45ymi2h1-cosvhxvwiu.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\jme1vlo51x-ub07r2b239.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\ugcw5war80-fvhpjtyr6v.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\4bd99m7h2i-b7pk76d08c.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\0i8a6qsf2q-fsbi9cje9m.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\ogp83b4n41-rzd6atqjts.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\0zedna1m10-ee0r1s7dh0.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\5eq059huyd-dxx9fxp4il.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\j68qm97f2l-jd9uben2k1.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\dziiekt9pr-khv3u5hwcm.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\8ssufc5675-r4e9w2rdcm.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\hej1av3rm5-lcd1t2u6c8.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\p4rgaibtcs-c2oey78nd0.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\yhpidk2ku4-tdbxkamptv.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\6li57wmfpo-j5mq2jizvt.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\sjgja6drh9-06098lyss8.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\idtr1eghll-nvvlpmu67g.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\ro2hmi90qf-s35ty4nyc5.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\zzb5wwoj8k-pj5nd1wqec.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\r2swobvoxd-46ein0sx1k.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\voc3dv3eyd-v0zj4ognzu.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\wodrag1xb0-37tfw0ft22.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\3luhoa685e-hrwsygsryq.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\po1ekjfs5j-pk9g2wxc8p.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\53fr2xzw2r-ft3s53vfgj.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\ivw2ydm6qg-6cfz1n2cew.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\7kvpzxttez-6pdc2jztkx.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\56ijtefra6-493y06b0oq.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\71rv5f9x2s-iovd86k7lj.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\a6nwwukjp7-vr1egmr9el.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\bpxpgu2jl8-kbrnm935zg.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\6vn2qw6866-jj8uyg4cgr.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\5c1agz0cb5-y7v9cxd14o.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\g1gommj3jr-notf2xhcfb.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\yzx5vbb5i3-h1s4sie4z3.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\ft3pyw8byg-63fj8s7r0e.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\q33x57660u-0j3bgjxly4.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\trytqhzno9-47otxtyo56.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\9ctoq3cl6m-4v8eqarkd7.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\995c82v0cd-356vix0kms.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\gqihjck5eu-83jwlth58m.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\lsj116qvqg-mrlpezrjn3.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\l4xecwetsy-lzl9nlhx6b.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\qkmdopl9vy-ag7o75518u.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\b376zvh2a3-x0q3zqp4vz.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\qdvgmn2k3v-0i3buxo5is.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\2leedxnh65-o1o13a6vjx.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\zae8jnza5d-ttgo8qnofa.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\n15xut11at-2z0ns9nrw6.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\6otcjvmgzm-muycvpuwrr.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\dy6up32q5y-87fc7y1x7t.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\92kgbiacws-mlv21k5csn.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\h5xnbv96bh-2y4vy8c5tf.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\compressed\1zs4elv0eo-2y4vy8c5tf.gz
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.build.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.development.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.DUANCHAMCONG.Microsoft.AspNetCore.StaticWebAssets.props
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.DUANCHAMCONG.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.build.DUANCHAMCONG.props
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.DUANCHAMCONG.props
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.DUANCHAMCONG.props
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.pack.json
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAM.2D2C6262.Up2Date
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.genruntimeconfig.cache
+E:\TT+DATN\Dự án chấm công\DUANCHAMCONG\obj\Debug\net9.0\ref\DUANCHAMCONG.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\appsettings.Development.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\appsettings.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.staticwebassets.endpoints.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.staticwebassets.runtime.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.exe
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.deps.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.runtimeconfig.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\DUANCHAMCONG.pdb
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Humanizer.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\System.Drawing.Common.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\System.Runtime.Caching.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\System.Security.Permissions.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\System.Windows.Extensions.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.csproj.AssemblyReference.cache
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.GeneratedMSBuildEditorConfig.editorconfig
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.AssemblyInfoInputs.cache
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.AssemblyInfo.cs
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.csproj.CoreCompileInputs.cache
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.MvcApplicationPartsAssemblyInfo.cache
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.RazorAssemblyInfo.cache
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.RazorAssemblyInfo.cs
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\scopedcss\bundle\DUANCHAMCONG.styles.css
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\scopedcss\projectbundle\DUANCHAMCONG.bundle.scp.css
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\3wevq5x9db-61n19gt1b8.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\sgnzowtvip-xtxxf3hu2r.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\vvqgxuxq7r-bqjiyaj88i.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\vwnqjohv0q-c2jlpeoesf.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\xt69xcohdv-erw9l3u2r3.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\61jsu5u38m-aexeepp0ev.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\yisr7flp06-d7shbmvgxk.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\qr8qe2qzy3-ausgxo2sd3.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\hsq9vkbait-k8d9w2qqmf.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\ie45ymi2h1-cosvhxvwiu.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\jme1vlo51x-ub07r2b239.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\ugcw5war80-fvhpjtyr6v.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\4bd99m7h2i-b7pk76d08c.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\0i8a6qsf2q-fsbi9cje9m.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\ogp83b4n41-rzd6atqjts.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\0zedna1m10-ee0r1s7dh0.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\5eq059huyd-dxx9fxp4il.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\j68qm97f2l-jd9uben2k1.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\dziiekt9pr-khv3u5hwcm.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\8ssufc5675-r4e9w2rdcm.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\hej1av3rm5-lcd1t2u6c8.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\p4rgaibtcs-c2oey78nd0.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\yhpidk2ku4-tdbxkamptv.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\6li57wmfpo-j5mq2jizvt.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\sjgja6drh9-06098lyss8.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\idtr1eghll-nvvlpmu67g.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\ro2hmi90qf-s35ty4nyc5.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\zzb5wwoj8k-pj5nd1wqec.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\r2swobvoxd-46ein0sx1k.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\voc3dv3eyd-v0zj4ognzu.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\wodrag1xb0-37tfw0ft22.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\3luhoa685e-hrwsygsryq.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\po1ekjfs5j-pk9g2wxc8p.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\53fr2xzw2r-ft3s53vfgj.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\ivw2ydm6qg-6cfz1n2cew.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\7kvpzxttez-6pdc2jztkx.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\56ijtefra6-493y06b0oq.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\71rv5f9x2s-iovd86k7lj.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\a6nwwukjp7-vr1egmr9el.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\bpxpgu2jl8-kbrnm935zg.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\6vn2qw6866-jj8uyg4cgr.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\5c1agz0cb5-y7v9cxd14o.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\g1gommj3jr-notf2xhcfb.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\yzx5vbb5i3-h1s4sie4z3.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\ft3pyw8byg-63fj8s7r0e.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\q33x57660u-0j3bgjxly4.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\trytqhzno9-47otxtyo56.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\9ctoq3cl6m-4v8eqarkd7.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\995c82v0cd-356vix0kms.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\gqihjck5eu-83jwlth58m.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\lsj116qvqg-mrlpezrjn3.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\l4xecwetsy-lzl9nlhx6b.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\qkmdopl9vy-ag7o75518u.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\b376zvh2a3-x0q3zqp4vz.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\qdvgmn2k3v-0i3buxo5is.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\2leedxnh65-o1o13a6vjx.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\zae8jnza5d-ttgo8qnofa.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\n15xut11at-2z0ns9nrw6.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\6otcjvmgzm-muycvpuwrr.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\dy6up32q5y-87fc7y1x7t.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\92kgbiacws-mlv21k5csn.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\h5xnbv96bh-2y4vy8c5tf.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\1zs4elv0eo-2y4vy8c5tf.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.build.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.development.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.DUANCHAMCONG.Microsoft.AspNetCore.StaticWebAssets.props
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.DUANCHAMCONG.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.build.DUANCHAMCONG.props
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.DUANCHAMCONG.props
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.DUANCHAMCONG.props
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\staticwebassets.pack.json
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAM.2D2C6262.Up2Date
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\refint\DUANCHAMCONG.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.pdb
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.genruntimeconfig.cache
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\ref\DUANCHAMCONG.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\DUANCHAMCONG.MvcApplicationPartsAssemblyInfo.cs
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\ClosedXML.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\ClosedXML.Parser.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\DocumentFormat.OpenXml.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\DocumentFormat.OpenXml.Framework.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\ExcelNumberFormat.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\RBush.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\SixLabors.Fonts.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\System.IO.Packaging.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\bin\Debug\net9.0\BCrypt.Net-Next.dll
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\tbuabtpacc-xg4mftnk5x.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\rns2h53sew-2nhi4imb78.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\a6olzhb5ug-ur838lvzax.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\y2inl2lvm1-xzaj6zu28y.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\sumts6ocqr-a4lh53ey4c.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\420gftc0jq-4j6xp2x4b5.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\ae2fv6953n-sasprfazph.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\k2oo5hv9bt-hfz9rlx685.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\dxl12fir8w-xd7iv9oky7.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\0fq9b7n0uc-a00khtefjw.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\msa6was548-8ld4vpkkfb.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\yfent9uoas-gs61mdpc2j.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\blbo9rjdbz-suzeckegvv.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\hyuvght33i-43mwupw109.gz
+E:\TT+DATN\NguyenVanMinh22601125\DUANCHAMCONG\obj\Debug\net9.0\compressed\1knvlh2ybg-dy5a2m21a8.gz

@@ -1,0 +1,62 @@
+@{
+    ViewData["Title"] = "Authentication";
+}
+
+<div class="auth-container">
+    <div class="auth-box" id="authBox">
+        <!-- Register Form -->
+        <div class="form-container sign-up-container">
+            <form id="registerForm">
+                <h2>Tạo Tài Khoản</h2>
+                <div class="input-group">
+                    <input type="text" id="regFullName" placeholder="Họ và Tên" required minlength="3" maxlength="100" />
+                </div>
+                <div class="input-group">
+                    <input type="email" id="regEmail" placeholder="Email" required />
+                </div>
+                <div class="input-group">
+                    <input type="password" id="regPassword" placeholder="Mật khẩu" required minlength="6" />
+                </div>
+                <button type="submit" class="btn-main">Đăng Ký</button>
+            </form>
+        </div>
+
+        <!-- Login Form -->
+        <div class="form-container sign-in-container">
+            <form id="loginForm">
+                <h2>Đăng Nhập</h2>
+                <div class="input-group">
+                    <input type="email" id="loginEmail" placeholder="Email" required />
+                </div>
+                <div class="input-group">
+                    <input type="password" id="loginPassword" placeholder="Mật khẩu" required />
+                </div>
+                <button type="submit" class="btn-main">Đăng Nhập</button>
+            </form>
+        </div>
+
+        <!-- Overlay -->
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h2>Mừng bạn trở lại!</h2>
+                    <p>Để duy trì kết nối với chúng tôi, vui lòng đăng nhập bằng thông tin cá nhân của bạn</p>
+                    <button class="btn-ghost" id="signInBtn">Đăng Nhập</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h2>Xin chào, Bạn Mới!</h2>
+                    <p>Nhập thông tin cá nhân của bạn và bắt đầu hành trình với chúng tôi</p>
+                    <button class="btn-ghost" id="signUpBtn">Đăng Ký</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Toast Notification -->
+    <div id="toast" class="toast-message"></div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />
+    <script src="~/js/auth.js" asp-append-version="true"></script>
+}

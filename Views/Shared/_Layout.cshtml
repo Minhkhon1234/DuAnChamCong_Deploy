@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DUANCHAMCONG</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/chatbot.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DUANCHAMCONG.styles.css" asp-append-version="true" />
+</head>
+@{
+    var isAuthPage = ViewContext.RouteData.Values["action"]?.ToString() == "Index" && ViewContext.RouteData.Values["controller"]?.ToString() == "Home";
+}
+<body class="@(isAuthPage ? "auth-page-body" : "")">
+    <div class="app-wrapper @(isAuthPage ? "no-sidebar" : "")">
+        <!-- Sidebar -->
+        @if (!isAuthPage)
+        {
+            <aside class="sidebar">
+            <div class="sidebar-header">
+                <a href="#" class="sidebar-logo" id="sidebarLogo">
+                    HUNGSTEMROBOTICSLAB
+                </a>
+            </div> 
+            <ul class="sidebar-menu">
+                <li class="menu-item user-only" style="display: none;">
+                    <a href="/Home/Dashboard" class="menu-link" id="nav-dashboard">
+                        <span class="menu-icon">⚡</span> Chấm Công
+                    </a>
+                </li>
+                <li class="menu-item user-only" style="display: none;">
+                    <a href="/Home/AttendanceHistory" class="menu-link" id="nav-attendance-history">
+                        <span class="menu-icon">📅</span> Lịch Sử Điểm Danh
+                    </a>
+                </li>
+                <li class="menu-item user-only" style="display: none;">
+                    <a href="/Home/LeaveHistory" class="menu-link" id="nav-leave-history">
+                        <span class="menu-icon">✉️</span> Đơn Xin Nghỉ
+                    </a>
+                </li>
+                <li class="menu-item admin-only" style="display: none;">
+                    <a href="/Home/AdminDashboard" class="menu-link" id="nav-admin">
+                        <span class="menu-icon">🛡️</span> Admin Panel
+                    </a>
+                </li>
+                <li class="menu-item admin-only" style="display: none;">
+                    <a href="/Home/UserManagement" class="menu-link" id="nav-users">
+                        <span class="menu-icon">👥</span> Quản Lý Nhân Sự
+                    </a>
+                </li>
+                <li class="menu-item admin-only" style="display: none;">
+                    <a href="/Home/MonthlyReport" class="menu-link" id="nav-report">
+                        <span class="menu-icon">📈</span> Báo Cáo & Lương
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="/Home/Settings" class="menu-link" id="nav-settings">
+                        <span class="menu-icon">⚙️</span> Cài Đặt
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="/Home/Privacy" class="menu-link">
+                        <span class="menu-icon">📜</span> Điều Khoản
+                    </a>
+                </li>
+            </ul>
+            <div style="padding: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
+                <div class="menu-link btn-logout" id="btnLogout" style="color: #fc8181;">
+                    <span class="menu-icon">🚪</span> Đăng xuất
+                </div>
+            </div>
+        </aside>
+        }
+
+        <!-- Main Layout -->
+        <div class="main-layout @(isAuthPage ? "no-margin" : "")">
+            @if (!isAuthPage)
+            {
+            <header class="top-navbar">
+                <h2 class="page-title">@ViewData["Title"]</h2>
+                <div class="user-info">
+                    <span id="userRoleBadge" class="role-badge" style="background: #e2e8f0; color: #4a5568; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase;"></span>
+                    <span id="navUserName" style="font-weight: 600;">
+                        <span id="userNameDisplay"></span>
+                        <span id="adminNameDisplay"></span>
+                    </span>
+                </div>
+            </header>
+            }
+
+            <main role="main" class="main-content">
+                @RenderBody()
+            </main>
+
+            @if (!isAuthPage)
+            {
+            <footer class="main-footer">
+                <div class="footer-bottom">
+                    <p>&copy; 2026 - Hệ Thống Quản Lý Điểm Danh - HUNG STEMROBOTICS LAB</p>
+                </div>
+            </footer>
+            }
+        </div>
+    </div>
+
+    @* Chatbot Widget *@
+    <div class="chatbot-container">
+        <div id="chatbotToggle" class="chatbot-button">
+            💬
+        </div>
+        <div id="chatbotWindow" class="chatbot-window">
+            <div class="chatbot-header">
+                <h4>Hỗ trợ DUANCHAMCONG</h4>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <span id="btnHistoryClear" title="Xóa lịch sử" style="cursor:pointer; font-size: 16px; opacity: 0.8;">🗑️</span>
+                    <span id="chatbotClose" style="cursor:pointer; font-size: 20px;">&times;</span>
+                </div>
+            </div>
+            <div id="chatbotMessages" class="chatbot-messages">
+                <!-- Messages go here -->
+            </div>
+            <form id="chatbotForm" class="chatbot-input">
+                <input type="text" id="chatbotInput" placeholder="Nhập câu hỏi của bạn..." autocomplete="off">
+                <button type="submit">➤</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/chatbot.js" asp-append-version="true"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const token = sessionStorage.getItem('token');
+            const role = sessionStorage.getItem('role');
+            const fullName = sessionStorage.getItem('fullName');
+
+            if (token) {
+                if (role === 'Admin' || role === 'Leader') {
+                    document.querySelectorAll('.admin-only').forEach(el => el.style.display = 'block');
+                } else {
+                    document.querySelectorAll('.user-only').forEach(el => el.style.display = 'block');
+                }
+                
+                const navUserName = document.getElementById('navUserName');
+                if (navUserName && fullName) {
+                    // Don't overwrite if inner spans are used by specific scripts
+                    const uDisp = document.getElementById('userNameDisplay');
+                    const aDisp = document.getElementById('adminNameDisplay');
+                    if (!uDisp && !aDisp) {
+                        navUserName.textContent = fullName;
+                    }
+                }
+            }
+
+            const btnLogout = document.getElementById('btnLogout');
+            if (btnLogout) {
+                btnLogout.addEventListener('click', () => {
+                    sessionStorage.clear();
+                    window.location.href = '/';
+                });
+            }
+
+            // Logo Redirect Logic
+            const sidebarLogo = document.getElementById('sidebarLogo');
+            if (sidebarLogo) {
+                sidebarLogo.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    if (role === 'Admin' || role === 'Leader') {
+                        window.location.href = '/Home/AdminDashboard';
+                    } else {
+                        window.location.href = '/Home/Dashboard';
+                    }
+                });
+            }
+
+            // Set active class based on URL
+            const currentPath = window.location.pathname;
+            document.querySelectorAll('.menu-link').forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

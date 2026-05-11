@@ -1,0 +1,66 @@
+@{
+    ViewData["Title"] = "Lịch Sử Điểm Danh";
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+    <script src="~/js/attendance-history.js" asp-append-version="true"></script>
+}
+
+<div class="user-content-inner">
+    <div class="summary-dashboard">
+        <h3 style="text-align: center; margin-bottom: 20px;">Thống Kê Tháng Hiện Tại</h3>
+        <div class="stat-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 30px;">
+            <div class="stat-card" style="background: white; padding: 20px; border-radius: 12px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border-top: 4px solid #4a6ee0;">
+                <p style="color: #666; font-size: 14px; margin-bottom: 5px;">Tổng ca làm</p>
+                <h2 id="totalShifts" style="margin: 0; color: #333;">--</h2>
+            </div>
+            <div class="stat-card" style="background: white; padding: 20px; border-radius: 12px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border-top: 4px solid #28a745;">
+                <p style="color: #666; font-size: 14px; margin-bottom: 5px;">Đi đúng giờ</p>
+                <h2 id="onTimeCount" style="margin: 0; color: #28a745;">--</h2>
+            </div>
+            <div class="stat-card" style="background: white; padding: 20px; border-radius: 12px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border-top: 4px solid #ffc107;">
+                <p style="color: #666; font-size: 14px; margin-bottom: 5px;">Đi muộn</p>
+                <h2 id="lateCount" style="margin: 0; color: #f59e0b;">--</h2>
+            </div>
+        </div>
+
+        <div id="requestDetailSection" style="text-align: center; padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+            <p id="requestStatusText" style="margin-bottom: 15px; color: #666;">Dữ liệu chi tiết đang được khóa. Vui lòng gửi yêu cầu để xem bảng công chi tiết.</p>
+            <button id="btnRequestDetails" class="btn-action" style="background: #17a2b8; max-width: 250px; margin: 0 auto; display: block;">Gửi Yêu Cầu Xem Chi Tiết</button>
+        </div>
+
+        <div id="historySection" class="history-section" style="display: none; margin-top: 30px;">
+            <h3>Chi Tiết Điểm Danh Tháng @DateTime.Now.Month</h3>
+            <div class="table-responsive">
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th>Cơ Sở</th>
+                            <th>Ca Làm</th>
+                            <th>Giờ Vào</th>
+                            <th>Giờ Ra</th>
+                            <th>Tổng Giờ</th>
+                            <th>Trạng Thái</th>
+                            <th>Vị Trí (GPS)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historyTableBody">
+                        <tr>
+                            <td colspan="7" style="text-align: center;">Đang tải dữ liệu...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast-message"></div>
+
+<!-- Loading -->
+<div id="loadingOverlay" class="loading-overlay">
+    <div class="spinner"></div>
+    <p style="margin-top: 15px; font-weight: bold; color: #333;">Đang xử lý...</p>
+</div>

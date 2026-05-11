@@ -1,0 +1,71 @@
+@{
+    ViewData["Title"] = "Đơn Xin Nghỉ";
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+    <script src="~/js/leave-history.js" asp-append-version="true"></script>
+}
+
+<div class="user-content-inner">
+    <div class="leave-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+            <h3 style="margin: 0;">Lịch Sử Xin Nghỉ</h3>
+            <button id="btnOpenLeaveModal" class="btn-action" style="width: auto; padding: 10px 25px; background: #ef4444;">+ Gửi Đơn Mới</button>
+        </div>
+
+        <div id="leaveHistorySection" class="history-section">
+            <div class="table-responsive">
+                <table class="history-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align: center;">Ngày Nghỉ</th>
+                            <th>Lý Do</th>
+                            <th style="text-align: center;">Trạng Thái</th>
+                            <th style="text-align: center;">Ngày Gửi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaveHistoryTableBody">
+                        <tr>
+                            <td colspan="4" style="text-align: center;">Đang tải dữ liệu...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Leave Request Modal -->
+<div id="leaveRequestModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content" style="max-width: 500px; padding: 25px;">
+        <h3 style="margin-top: 0;">Gửi Đơn Xin Nghỉ</h3>
+        <form id="leaveRequestForm">
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: 600;">Ngày nghỉ:</label>
+                <input type="date" id="leaveDate" class="form-control" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd;">
+            </div>
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: 600;">Lý do xin nghỉ:</label>
+                <textarea id="leaveReason" class="form-control" rows="4" required placeholder="Nêu lý do chi tiết..." style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd;"></textarea>
+            </div>
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: 600;">Hình ảnh minh chứng (nếu có):</label>
+                <input type="file" id="leaveImage" accept="image/*" class="form-control" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd;">
+            </div>
+            <div style="display: flex; gap: 10px; justify-content: flex-end;">
+                <button type="button" id="btnCancelLeave" class="btn-logout" style="background: #6c757d; border: none;">Hủy</button>
+                <button type="submit" class="btn-action" style="background: #ef4444; padding: 8px 20px; font-size: 15px; width: auto;">Gửi Yêu Cầu</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast-message"></div>
+
+<!-- Loading -->
+<div id="loadingOverlay" class="loading-overlay">
+    <div class="spinner"></div>
+    <p style="margin-top: 15px; font-weight: bold; color: #333;">Đang xử lý...</p>
+</div>

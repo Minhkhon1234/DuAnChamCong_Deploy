@@ -1,0 +1,139 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/admin-dashboard.css" asp-append-version="true" />
+    <script src="~/js/admin-dashboard.js" asp-append-version="true"></script>
+}
+
+<div class="admin-content-inner">
+    <div class="dashboard-title">
+        <h3>Tổng quan điểm danh hôm nay</h3>
+        <p id="currentDateDisplay"></p>
+    </div>
+
+        <div class="stat-grid">
+            <div class="stat-card total-users">
+                <div class="stat-icon">👥</div>
+                <div class="stat-details">
+                    <p>Tổng Nhân Sự</p>
+                    <h3 id="statTotalUsers">--</h3>
+                </div>
+            </div>
+            
+            <div class="stat-card present">
+                <div class="stat-icon">✅</div>
+                <div class="stat-details">
+                    <p>Có Mặt Hôm Nay</p>
+                    <h3 id="statTotalPresent">--</h3>
+                </div>
+            </div>
+
+            <div class="stat-card ontime">
+                <div class="stat-icon">⏱️</div>
+                <div class="stat-details">
+                    <p>Đúng Giờ</p>
+                    <h3 id="statTotalOnTime">--</h3>
+                </div>
+            </div>
+
+            <div class="stat-card late">
+                <div class="stat-icon">⚠️</div>
+                <div class="stat-details">
+                    <p>Đi Muộn</p>
+                    <h3 id="statTotalLate">--</h3>
+                </div>
+            </div>
+
+            <div class="stat-card absent">
+                <div class="stat-icon">❌</div>
+                <div class="stat-details">
+                    <p>Vắng Mặt</p>
+                    <h3 id="statTotalAbsent">--</h3>
+                </div>
+            </div>
+
+            <div class="stat-card invalid">
+                <div class="stat-icon">📍</div>
+                <div class="stat-details">
+                    <p>Sai Vị Trí</p>
+                    <h3 id="statTotalInvalid">--</h3>
+                </div>
+            </div>
+
+            <div class="stat-card leave-requests" style="border-left-color: #f43f5e;">
+                <div class="stat-icon">🏥</div>
+                <div class="stat-details">
+                    <p>Yêu Cầu Xin Nghỉ</p>
+                    <h3 id="statTotalLeave">--</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="daily-detail-section" id="leaveRequestSection" style="margin-top: 30px; display: none;">
+            <div class="section-header">
+                <h3>Danh sách yêu cầu xin nghỉ</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table admin-table">
+                    <thead>
+                        <tr>
+                            <th>Nhân viên</th>
+                            <th style="text-align: center;">Ngày nghỉ</th>
+                            <th>Lý do xin nghỉ</th>
+                            <th style="text-align: center;">Minh chứng</th>
+                            <th style="text-align: center;">Trạng thái</th>
+                            <th style="text-align: center;">Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaveRequestTableBody">
+                        <!-- Leave requests data goes here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="daily-detail-section" id="dailyDetailSection" style="margin-top: 30px;">
+            <div class="section-header">
+                <h3 id="dailyDetailTitle">Danh sách điểm danh hôm nay</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table admin-table">
+                    <thead>
+                        <tr>
+                            <th>Nhân viên</th>
+                            <th>Email</th>
+                            <th>Cơ sở làm việc</th>
+                            <th>Ca làm việc</th>
+                            <th style="text-align: center;">Giờ Check-in</th>
+                            <th style="text-align: center;">Trạng thái</th>
+                            <th style="text-align: center;">Ghi chú/Lý do</th>
+                        </tr>
+                    </thead>
+                    <tbody id="dailyDetailTableBody">
+                        <!-- Data goes here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Image Preview Modal -->
+<div id="imageModal" class="modal-overlay" style="display: none; z-index: 10000;">
+    <div class="modal-content" style="max-width: 800px; padding: 10px; background: transparent; box-shadow: none;">
+        <span id="closeImageModal" style="position: absolute; top: -40px; right: 0; color: white; font-size: 30px; cursor: pointer;">&times;</span>
+        <img id="modalImage" src="" style="width: 100%; border-radius: 8px; box-shadow: 0 5px 25px rgba(0,0,0,0.5);">
+    </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast-message"></div>
+
+<!-- Loading -->
+<div id="loadingOverlay" class="loading-overlay">
+    <div class="spinner"></div>
+    <p style="margin-top: 15px; font-weight: bold; color: #333;">Đang tải dữ liệu...</p>
+</div>
