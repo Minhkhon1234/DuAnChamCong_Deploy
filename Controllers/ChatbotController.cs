@@ -56,17 +56,35 @@ namespace DUANCHAMCONG.Controllers
                 {
                     context += $"- {item.Name}: {item.Count} lần\n";
                 }
+                context += "\nLưu ý quan trọng: Khi liệt kê danh sách nhân viên đi muộn hoặc báo cáo, bạn BẮT BUỘC phải trình bày dưới dạng gạch đầu dòng (bullet points) và mỗi người một dòng riêng biệt, tuyệt đối không được viết liền nhau để dễ nhìn.\n";
             }
             else
             {
                 var schools = await _context.Users.Select(u => new { u.FullName, u.Id }).Take(1).ToListAsync(); // Dummy, actually we need school configs
                 // Assuming we have schools in a real scenario, let's use what we have or just mock
                 context += "Dữ liệu các cơ sở làm việc:\n" +
-                           "- Cơ sở 1: 123 Đường ABC, Quận 1. Tọa độ: 10.7769, 106.7009\n" +
-                           "- Cơ sở 2: 456 Đường XYZ, Quận 7. Tọa độ: 10.7289, 106.7082\n";
+                           "- Cơ sở Ngôi Sao Hoàng Mai: Tọa độ 20.9716, 105.8436\n" +
+                           "- Cơ sở Đoàn Thị Điểm: Tọa độ 21.0375, 105.7686\n";
+
+                var userLateCount = await _context.Attendances
+                    .Where(a => a.UserId == userId && a.Status.Contains("Late") && a.CheckInTime.Month == DateTime.Now.Month)
+                    .CountAsync();
+
+                context += $"\nTrong tháng này, nhân viên này đã đi muộn {userLateCount} lần.\n";
+                context += "Quy tắc trả lời bắt buộc (hãy chèn thêm vào câu trả lời của bạn):\n";
+                
+                if (userLateCount == 0) {
+                    context += "- Hãy dành một lời khen ngợi vì nhân viên này luôn giữ vững kỷ luật, chưa đi muộn lần nào trong tháng.\n";
+                } else if (userLateCount >= 1 && userLateCount < 3) {
+                    context += "- Hãy nhắc nhở nhẹ nhàng nhân viên này về việc đã đi muộn vài lần.\n";
+                } else if (userLateCount >= 3 && userLateCount < 5) {
+                    context += "- Hãy phê bình nghiêm khắc vì nhân viên này đã đi muộn nhiều lần.\n";
+                } else {
+                    context += "- Hãy đưa ra lời cảnh báo gay gắt vì nhân viên này đã đi muộn quá nhiều (từ 5 lần trở lên).\n";
+                }
             }
 
-            string finalPrompt = $"{context}\nCâu hỏi của người dùng: \"{userMessage}\"\nTrả lời ngắn gọn, lịch sự, chuyên nghiệp bằng tiếng Việt.";
+            string finalPrompt = $"{context}\nCâu hỏi của người dùng: \"{userMessage}\"\nTrả lời ngắn gọn, lịch sự, chuyên nghiệp bằng tiếng Việt. Tuân thủ tuyệt đối các quy tắc định dạng đã yêu cầu.";
 
             // TRY LOCAL SERVICE FIRST
             string aiResponse = await _localService.ProcessQuery(userMessage, role, user.FullName);
