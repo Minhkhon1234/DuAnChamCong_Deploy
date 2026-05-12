@@ -107,12 +107,36 @@ document.addEventListener('DOMContentLoaded', () => {
                 const history = await response.json();
                 chatbotMessages.innerHTML = '';
                 history.forEach(chat => {
-                    appendMessage('user', chat.message);
-                    appendMessage('bot', chat.response);
+                    const msg = chat.message || chat.Message;
+                    const res = chat.response || chat.Response;
+                    if (msg) appendMessage('user', msg);
+                    if (res) appendMessage('bot', res);
                 });
 
                 if (history.length === 0) {
-                    appendMessage('bot', 'Xin chào! Tôi có thể giúp gì cho bạn hôm nay?');
+                    const role = sessionStorage.getItem('role');
+                    if (role === 'User') {
+                        const typingId = appendMessage('bot', '...', 'typing');
+                        try {
+                            const greetRes = await fetch('/api/chatbot/greeting', {
+                                method: 'POST',
+                                headers: { 'Authorization': `Bearer ${token}` }
+                            });
+                            removeMessage(typingId);
+                            if (greetRes.ok) {
+                                const greetData = await greetRes.json();
+                                appendMessage('bot', greetData.response);
+                            } else {
+                                appendMessage('bot', 'Xin chào! Tôi có thể giúp gì cho bạn hôm nay?');
+                            }
+                        } catch(e) {
+                            removeMessage(typingId);
+                            appendMessage('bot', 'Xin chào! Tôi có thể giúp gì cho bạn hôm nay?');
+                        }
+                    } else {
+                        // Admin/Leader skip greeting fetch
+                        appendMessage('bot', 'Xin chào Quản lý! Tôi có thể giúp gì cho bạn hôm nay?');
+                    }
                 }
             }
         } catch (error) {

@@ -143,5 +143,61 @@ namespace DUANCHAMCONG.Controllers
 
             return Ok(new { message = "Đã xóa lịch sử trò chuyện." });
         }
+
+        [HttpPost("greeting")]
+        public async Task<IActionResult> GetGreeting()
+        {
+            var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userIdStr)) return Unauthorized();
+            var userId = int.Parse(userIdStr);
+
+            var user = await _context.Users.FindAsync(userId);
+            if (user == null) return NotFound();
+
+            var role = User.FindFirstValue(ClaimTypes.Role) ?? "User";
+            if (role != "User")
+            {
+                return Ok(new { response = $"Xin chào {user.FullName}! Tôi có thể giúp gì cho bạn hôm nay?" });
+            }
+
+            var userLateCount = await _context.Attendances
+                .Where(a => a.UserId == userId && a.Status.Contains("Late") && a.CheckInTime.Month == DateTime.Now.Month)
+                .CountAsync();
+
+            string context = $"Bạn là trợ lý ảo của hệ thống quản lý nhân sự. Người đang nói chuyện là {user.FullName}. " +
+                             $"Trong tháng này, nhân viên này đã đi muộn {userLateCount} lần. " +
+                             "Bạn hãy tự động gửi một lời chào hỏi thật ngắn gọn, tự nhiên, và bắt buộc kèm theo:\n";
+
+            if (userLateCount == 0) {
+                context += "- Một lời khen ngợi vì nhân viên này luôn giữ vững kỷ luật, chưa đi muộn lần nào trong tháng.\n";
+            } else if (userLateCount >= 1 && userLateCount < 3) {
+                context += "- Một lời nhắc nhở nhẹ nhàng về việc đã đi muộn vài lần.\n";
+            } else if (userLateCount >= 3 && userLateCount < 5) {
+                context += "- Một lời phê bình nghiêm khắc vì đã đi muộn nhiều lần.\n";
+            } else {
+                context += "- Một lời cảnh báo gay gắt vì đã đi muộn quá nhiều (từ 5 lần trở lên).\n";
+            }
+
+            string finalPrompt = context + "\nChỉ trả lời lời chào, không cần trả lời thêm gì khác. Trả lời bằng tiếng Việt.";
+
+            var geminiResponse = await _geminiService.GenerateResponse(finalPrompt);
+            if (geminiResponse.Contains("Lỗi"))
+            {
+                geminiResponse = $"Xin chào {user.FullName}! Chúc bạn một ngày làm việc hiệu quả.";
+            }
+
+            // Save greeting to history so it doesn't pop up again unless cleared
+            var chat = new ChatHistory
+            {
+                UserId = userId,
+                Message = "[Hệ thống tự động chào hỏi]",
+                Response = geminiResponse,
+                CreatedAt = DateTime.Now
+            };
+            _context.ChatHistories.Add(chat);
+            await _context.SaveChangesAsync();
+
+            return Ok(new { response = geminiResponse });
+        }
     }
 }
