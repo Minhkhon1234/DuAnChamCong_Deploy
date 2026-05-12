@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rxccjGXOTRsT54nzMBcyZeOTcjOl/9Ax1D7wa604teY=",
+  "Hash": "RV9KDN+AXOja9RYStBwgOkdCTKZnTV2jObVtBt8uT+4=",
   "Source": "DUANCHAMCONG",
   "BasePath": "_content/DUANCHAMCONG",
   "Mode": "Default",
@@ -185,12 +185,12 @@
       "OriginalItemSpec": "E:\\DUANCHAMCONG_09.05\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-4j6xp2x4b5.gz",
+      "Identity": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-6jabywj95i.gz",
       "SourceId": "DUANCHAMCONG",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DUANCHAMCONG",
-      "RelativePath": "css/chatbot#[.{fingerprint=4j6xp2x4b5}]?.css.gz",
+      "RelativePath": "css/chatbot#[.{fingerprint=6jabywj95i}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -199,8 +199,8 @@
       "RelatedAsset": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\chatbot.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "i4ce5uiv4t",
-      "Integrity": "4nHaeVD4C+c5vqCoww2hHNaOdFH7HD+s2+yvLO+OT+Q=",
+      "Fingerprint": "07k26h2v3f",
+      "Integrity": "RKNIMX7wVca/li/R6qx4gIqlSOWp6rv7DV7cxhe++O4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\chatbot.css"
@@ -563,12 +563,12 @@
       "OriginalItemSpec": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\dashboard.css"
     },
     {
-      "Identity": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-sasprfazph.gz",
+      "Identity": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-50sbba74cv.gz",
       "SourceId": "DUANCHAMCONG",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DUANCHAMCONG",
-      "RelativePath": "js/chatbot#[.{fingerprint=sasprfazph}]?.js.gz",
+      "RelativePath": "js/chatbot#[.{fingerprint=50sbba74cv}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -577,8 +577,8 @@
       "RelatedAsset": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\chatbot.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "i09nc5sc5y",
-      "Integrity": "nvIYNHfE2QqfhTxXcKXQr6SBNZBJ6twxkqYUtdsO6VA=",
+      "Fingerprint": "685bn2tdfl",
+      "Integrity": "ykFE7mEBtT/9tLOWBEPiPCmW6VPoW3+cIx0OgeEuEV8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\chatbot.js"
@@ -1753,8 +1753,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4j6xp2x4b5",
-      "Integrity": "sE+5vTvrkMeW9p8ewwAjlxNRmGl0N5m7w/IikKR+DBs=",
+      "Fingerprint": "6jabywj95i",
+      "Integrity": "Ely/u5Nl9eZwlzBIwZDYPE23Oxx6zjz6CtrsjrI9bHg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\chatbot.css"
@@ -1921,8 +1921,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sasprfazph",
-      "Integrity": "hFLc1EVo5tMikWYfUzNYHkPuq216JDkhn2k4OwPJ05I=",
+      "Fingerprint": "50sbba74cv",
+      "Integrity": "e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\chatbot.js"
@@ -3954,13 +3954,13 @@
       ]
     },
     {
-      "Route": "css/chatbot.4j6xp2x4b5.css",
-      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-4j6xp2x4b5.gz",
+      "Route": "css/chatbot.6jabywj95i.css",
+      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-6jabywj95i.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001338688086"
+          "Quality": "0.001319261214"
         }
       ],
       "ResponseHeaders": [
@@ -3970,15 +3970,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "757"
         },
         {
           "Name": "ETag",
-          "Value": "\"4nHaeVD4C+c5vqCoww2hHNaOdFH7HD+s2+yvLO+OT+Q=\""
+          "Value": "\"RKNIMX7wVca/li/R6qx4gIqlSOWp6rv7DV7cxhe++O4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 08:32:40 GMT"
+          "Value": "Tue, 12 May 2026 07:12:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3998,13 +3998,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sE+5vTvrkMeW9p8ewwAjlxNRmGl0N5m7w/IikKR+DBs=\""
+          "Value": "W/\"Ely/u5Nl9eZwlzBIwZDYPE23Oxx6zjz6CtrsjrI9bHg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4j6xp2x4b5"
+          "Value": "6jabywj95i"
         },
         {
           "Name": "label",
@@ -4012,12 +4012,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sE+5vTvrkMeW9p8ewwAjlxNRmGl0N5m7w/IikKR+DBs="
+          "Value": "sha256-Ely/u5Nl9eZwlzBIwZDYPE23Oxx6zjz6CtrsjrI9bHg="
         }
       ]
     },
     {
-      "Route": "css/chatbot.4j6xp2x4b5.css",
+      "Route": "css/chatbot.6jabywj95i.css",
       "AssetFile": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\chatbot.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4027,7 +4027,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2199"
+          "Value": "2226"
         },
         {
           "Name": "Content-Type",
@@ -4035,11 +4035,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sE+5vTvrkMeW9p8ewwAjlxNRmGl0N5m7w/IikKR+DBs=\""
+          "Value": "\"Ely/u5Nl9eZwlzBIwZDYPE23Oxx6zjz6CtrsjrI9bHg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 08:32:40 GMT"
+          "Value": "Tue, 12 May 2026 07:12:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4049,7 +4049,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4j6xp2x4b5"
+          "Value": "6jabywj95i"
         },
         {
           "Name": "label",
@@ -4057,13 +4057,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sE+5vTvrkMeW9p8ewwAjlxNRmGl0N5m7w/IikKR+DBs="
+          "Value": "sha256-Ely/u5Nl9eZwlzBIwZDYPE23Oxx6zjz6CtrsjrI9bHg="
         }
       ]
     },
     {
-      "Route": "css/chatbot.4j6xp2x4b5.css.gz",
-      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-4j6xp2x4b5.gz",
+      "Route": "css/chatbot.6jabywj95i.css.gz",
+      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-6jabywj95i.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4072,7 +4072,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "757"
         },
         {
           "Name": "Content-Type",
@@ -4080,11 +4080,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4nHaeVD4C+c5vqCoww2hHNaOdFH7HD+s2+yvLO+OT+Q=\""
+          "Value": "\"RKNIMX7wVca/li/R6qx4gIqlSOWp6rv7DV7cxhe++O4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 08:32:40 GMT"
+          "Value": "Tue, 12 May 2026 07:12:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4102,7 +4102,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4j6xp2x4b5"
+          "Value": "6jabywj95i"
         },
         {
           "Name": "label",
@@ -4110,18 +4110,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4nHaeVD4C+c5vqCoww2hHNaOdFH7HD+s2+yvLO+OT+Q="
+          "Value": "sha256-RKNIMX7wVca/li/R6qx4gIqlSOWp6rv7DV7cxhe++O4="
         }
       ]
     },
     {
       "Route": "css/chatbot.css",
-      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-4j6xp2x4b5.gz",
+      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-6jabywj95i.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001338688086"
+          "Quality": "0.001319261214"
         }
       ],
       "ResponseHeaders": [
@@ -4131,15 +4131,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "757"
         },
         {
           "Name": "ETag",
-          "Value": "\"4nHaeVD4C+c5vqCoww2hHNaOdFH7HD+s2+yvLO+OT+Q=\""
+          "Value": "\"RKNIMX7wVca/li/R6qx4gIqlSOWp6rv7DV7cxhe++O4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 08:32:40 GMT"
+          "Value": "Tue, 12 May 2026 07:12:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4159,13 +4159,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sE+5vTvrkMeW9p8ewwAjlxNRmGl0N5m7w/IikKR+DBs=\""
+          "Value": "W/\"Ely/u5Nl9eZwlzBIwZDYPE23Oxx6zjz6CtrsjrI9bHg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sE+5vTvrkMeW9p8ewwAjlxNRmGl0N5m7w/IikKR+DBs="
+          "Value": "sha256-Ely/u5Nl9eZwlzBIwZDYPE23Oxx6zjz6CtrsjrI9bHg="
         }
       ]
     },
@@ -4180,7 +4180,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2199"
+          "Value": "2226"
         },
         {
           "Name": "Content-Type",
@@ -4188,11 +4188,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sE+5vTvrkMeW9p8ewwAjlxNRmGl0N5m7w/IikKR+DBs=\""
+          "Value": "\"Ely/u5Nl9eZwlzBIwZDYPE23Oxx6zjz6CtrsjrI9bHg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 08:32:40 GMT"
+          "Value": "Tue, 12 May 2026 07:12:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4202,13 +4202,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sE+5vTvrkMeW9p8ewwAjlxNRmGl0N5m7w/IikKR+DBs="
+          "Value": "sha256-Ely/u5Nl9eZwlzBIwZDYPE23Oxx6zjz6CtrsjrI9bHg="
         }
       ]
     },
     {
       "Route": "css/chatbot.css.gz",
-      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-4j6xp2x4b5.gz",
+      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\420gftc0jq-6jabywj95i.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4217,7 +4217,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "746"
+          "Value": "757"
         },
         {
           "Name": "Content-Type",
@@ -4225,11 +4225,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4nHaeVD4C+c5vqCoww2hHNaOdFH7HD+s2+yvLO+OT+Q=\""
+          "Value": "\"RKNIMX7wVca/li/R6qx4gIqlSOWp6rv7DV7cxhe++O4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 08:32:40 GMT"
+          "Value": "Tue, 12 May 2026 07:12:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4247,7 +4247,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4nHaeVD4C+c5vqCoww2hHNaOdFH7HD+s2+yvLO+OT+Q="
+          "Value": "sha256-RKNIMX7wVca/li/R6qx4gIqlSOWp6rv7DV7cxhe++O4="
         }
       ]
     },
@@ -6934,13 +6934,13 @@
       ]
     },
     {
-      "Route": "js/chatbot.js",
-      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-sasprfazph.gz",
+      "Route": "js/chatbot.50sbba74cv.js",
+      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-50sbba74cv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000740192450"
+          "Quality": "0.000648088140"
         }
       ],
       "ResponseHeaders": [
@@ -6950,19 +6950,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1350"
+          "Value": "1542"
         },
         {
           "Name": "ETag",
-          "Value": "\"nvIYNHfE2QqfhTxXcKXQr6SBNZBJ6twxkqYUtdsO6VA=\""
+          "Value": "\"ykFE7mEBtT/9tLOWBEPiPCmW6VPoW3+cIx0OgeEuEV8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 14:12:58 GMT"
+          "Value": "Tue, 12 May 2026 07:13:05 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -6978,18 +6978,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hFLc1EVo5tMikWYfUzNYHkPuq216JDkhn2k4OwPJ05I=\""
+          "Value": "W/\"e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "50sbba74cv"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chatbot.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-hFLc1EVo5tMikWYfUzNYHkPuq216JDkhn2k4OwPJ05I="
+          "Value": "sha256-e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0="
         }
       ]
     },
     {
-      "Route": "js/chatbot.js",
+      "Route": "js/chatbot.50sbba74cv.js",
       "AssetFile": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\chatbot.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6999,7 +7007,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4403"
+          "Value": "5768"
         },
         {
           "Name": "Content-Type",
@@ -7007,121 +7015,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hFLc1EVo5tMikWYfUzNYHkPuq216JDkhn2k4OwPJ05I=\""
+          "Value": "\"e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 14:12:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hFLc1EVo5tMikWYfUzNYHkPuq216JDkhn2k4OwPJ05I="
-        }
-      ]
-    },
-    {
-      "Route": "js/chatbot.js.gz",
-      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-sasprfazph.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1350"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nvIYNHfE2QqfhTxXcKXQr6SBNZBJ6twxkqYUtdsO6VA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 14:12:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-nvIYNHfE2QqfhTxXcKXQr6SBNZBJ6twxkqYUtdsO6VA="
-        }
-      ]
-    },
-    {
-      "Route": "js/chatbot.sasprfazph.js",
-      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-sasprfazph.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000740192450"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1350"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nvIYNHfE2QqfhTxXcKXQr6SBNZBJ6twxkqYUtdsO6VA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 14:12:58 GMT"
+          "Value": "Tue, 12 May 2026 07:13:05 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hFLc1EVo5tMikWYfUzNYHkPuq216JDkhn2k4OwPJ05I=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sasprfazph"
+          "Value": "50sbba74cv"
         },
         {
           "Name": "label",
@@ -7129,13 +7037,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hFLc1EVo5tMikWYfUzNYHkPuq216JDkhn2k4OwPJ05I="
+          "Value": "sha256-e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0="
         }
       ]
     },
     {
-      "Route": "js/chatbot.sasprfazph.js",
-      "AssetFile": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\chatbot.js",
+      "Route": "js/chatbot.50sbba74cv.js.gz",
+      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-50sbba74cv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7144,7 +7052,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4403"
+          "Value": "1542"
         },
         {
           "Name": "Content-Type",
@@ -7152,56 +7060,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hFLc1EVo5tMikWYfUzNYHkPuq216JDkhn2k4OwPJ05I=\""
+          "Value": "\"ykFE7mEBtT/9tLOWBEPiPCmW6VPoW3+cIx0OgeEuEV8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 14:12:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sasprfazph"
-        },
-        {
-          "Name": "label",
-          "Value": "js/chatbot.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hFLc1EVo5tMikWYfUzNYHkPuq216JDkhn2k4OwPJ05I="
-        }
-      ]
-    },
-    {
-      "Route": "js/chatbot.sasprfazph.js.gz",
-      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-sasprfazph.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1350"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nvIYNHfE2QqfhTxXcKXQr6SBNZBJ6twxkqYUtdsO6VA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 05 May 2026 14:12:58 GMT"
+          "Value": "Tue, 12 May 2026 07:13:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7219,7 +7082,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "sasprfazph"
+          "Value": "50sbba74cv"
         },
         {
           "Name": "label",
@@ -7227,7 +7090,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nvIYNHfE2QqfhTxXcKXQr6SBNZBJ6twxkqYUtdsO6VA="
+          "Value": "sha256-ykFE7mEBtT/9tLOWBEPiPCmW6VPoW3+cIx0OgeEuEV8="
+        }
+      ]
+    },
+    {
+      "Route": "js/chatbot.js",
+      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-50sbba74cv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000648088140"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1542"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ykFE7mEBtT/9tLOWBEPiPCmW6VPoW3+cIx0OgeEuEV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 May 2026 07:13:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0="
+        }
+      ]
+    },
+    {
+      "Route": "js/chatbot.js",
+      "AssetFile": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\chatbot.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 May 2026 07:13:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0="
+        }
+      ]
+    },
+    {
+      "Route": "js/chatbot.js.gz",
+      "AssetFile": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\compressed\\ae2fv6953n-50sbba74cv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ykFE7mEBtT/9tLOWBEPiPCmW6VPoW3+cIx0OgeEuEV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 May 2026 07:13:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ykFE7mEBtT/9tLOWBEPiPCmW6VPoW3+cIx0OgeEuEV8="
         }
       ]
     },
