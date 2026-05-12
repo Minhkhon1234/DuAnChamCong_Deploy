@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 if (response.ok) {
                     chatbotMessages.innerHTML = '';
-                    appendMessage('bot', 'Đã xóa lịch sử. Tôi có thể giúp gì mới cho bạn?');
+                    loadChatHistory(); // Load lại để kích hoạt AI chào tự động
                 }
             } catch (error) {
                 console.error("Lỗi xóa lịch sử:", error);
