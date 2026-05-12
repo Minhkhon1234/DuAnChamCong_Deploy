@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hfz9rlx685</Fingerprint>
-      <Integrity>nRot9JB+A/x8duNHH7bCIB8qGKLkzrOM5bTQ4+VFScE=</Integrity>
+      <Fingerprint>64zvnrfksq</Fingerprint>
+      <Integrity>hnZmYRCPT7dS2xhYZENNRb1LLkfOSYY74zThM1vQjZ8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin-dashboard.js'))</OriginalItemSpec>
@@ -174,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8ld4vpkkfb</Fingerprint>
-      <Integrity>NB9zhz/4btH7qXo+3ViI0fC/F/CGUkouhz5G/jpp9Ac=</Integrity>
+      <Fingerprint>y1acct3syl</Fingerprint>
+      <Integrity>5g0T9hBd5YMaMcizkQ9o1qyrWS0hbDFr6i5sEgWCmqs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\attendance-history.js'))</OriginalItemSpec>
@@ -264,8 +264,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xd7iv9oky7</Fingerprint>
-      <Integrity>G0dE4+1xxVfzgbWOJwcpX3ufPLyw72QGvV0eahgEkpk=</Integrity>
+      <Fingerprint>rp6v4llotq</Fingerprint>
+      <Integrity>QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\monthly-report.js'))</OriginalItemSpec>

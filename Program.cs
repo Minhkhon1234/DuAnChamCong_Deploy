@@ -2,12 +2,16 @@ using DUANCHAMCONG.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using DUANCHAMCONG.Services; // Thêm namespace
 using System.Text;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+// Đăng ký Background Service tự động check-out
+builder.Services.AddHostedService<AutoCheckoutService>();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<DUANCHAMCONG.Services.GeminiService>();

@@ -22,6 +22,29 @@ namespace DUANCHAMCONG.Controllers
             _config = config;
         }
 
+        private double CalculateShiftHours(string? selectedShifts)
+        {
+            if (string.IsNullOrEmpty(selectedShifts)) return 0;
+
+            double totalHours = 0;
+            var shifts = selectedShifts.Split(", ");
+            foreach (var shift in shifts)
+            {
+                try
+                {
+                    var parts = shift.Split("-");
+                    if (parts.Length == 2)
+                    {
+                        var start = TimeSpan.Parse(parts[0].Trim());
+                        var end = TimeSpan.Parse(parts[1].Trim());
+                        totalHours += (end - start).TotalHours;
+                    }
+                }
+                catch { } // Ignore format errors
+            }
+            return totalHours;
+        }
+
         // ================= GET SCHOOLS =================
         [HttpGet("schools")]
         public IActionResult GetSchools()
@@ -206,8 +229,8 @@ namespace DUANCHAMCONG.Controllers
 
             attendance.CheckOutTime = DateTime.Now;
 
-            // 👉 Tính giờ làm
-            var totalHours = (attendance.CheckOutTime.Value - attendance.CheckInTime).TotalHours;
+            // 👉 Tính giờ làm (Theo thời gian ca đã đăng ký)
+            var totalHours = CalculateShiftHours(attendance.SelectedShifts);
 
             // 👉 Tính giờ kết thúc của ca cuối cùng đã chọn
             if (!string.IsNullOrEmpty(attendance.SelectedShifts))
@@ -306,9 +329,7 @@ namespace DUANCHAMCONG.Controllers
                         x.Longitude,
                         x.SelectedShifts,
                         x.EarlyLeaveReason,
-                        TotalHours = x.CheckOutTime.HasValue
-                            ? Math.Round((x.CheckOutTime.Value - x.CheckInTime).TotalHours, 2)
-                            : 0
+                        TotalHours = CalculateShiftHours(x.SelectedShifts)
                     })
                     .ToList();
             }

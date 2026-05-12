@@ -127,6 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (status.includes('Late')) badges += '<span style="color:var(--warning-color);font-weight:600;">Đi muộn</span> ';
         if (status.includes('EarlyLeave')) badges += '<span style="color:var(--danger-color);font-weight:600;">Về sớm</span> ';
         if (status.includes('InvalidLocation')) badges += '<span style="color:var(--text-muted);font-weight:600;">Sai vị trí</span> ';
+        if (status.includes('ForgetCheckOut')) badges += '<span style="background:#dc3545;color:white;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:bold;">Chưa Check-out</span> ';
         return badges || status;
     }
 

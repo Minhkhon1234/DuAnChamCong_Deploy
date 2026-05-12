@@ -168,6 +168,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     symbol = 'M';
                     color = '#ffc107';
                     title = 'Đi muộn';
+                } else if (status === 'ForgetCheckOut') {
+                    symbol = 'Q';
+                    color = '#dc3545';
+                    title = 'Chưa Check-out';
                 } else if (status === 'Invalid') {
                     symbol = '!';
                     color = '#dc3545';

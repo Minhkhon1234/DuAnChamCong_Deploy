@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (status.includes('Late')) badges += '<span class="status-badge status-late">Đi muộn</span> ';
         if (status.includes('EarlyLeave')) badges += '<span class="status-badge status-earlyleave">Về sớm</span> ';
         if (status.includes('InvalidLocation')) badges += '<span class="status-badge status-invalid">Sai vị trí</span> ';
+        if (status.includes('ForgetCheckOut')) badges += '<span class="status-badge" style="background:#dc3545;color:white;border:none;">Chưa Check-out</span> ';
         return badges || status;
     }
 

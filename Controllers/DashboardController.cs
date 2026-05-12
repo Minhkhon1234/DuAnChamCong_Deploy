@@ -17,6 +17,29 @@ namespace DUANCHAMCONG.Controllers
             _context = context;
         }
 
+        private double CalculateShiftHours(string? selectedShifts)
+        {
+            if (string.IsNullOrEmpty(selectedShifts)) return 0;
+
+            double totalHours = 0;
+            var shifts = selectedShifts.Split(", ");
+            foreach (var shift in shifts)
+            {
+                try
+                {
+                    var parts = shift.Split("-");
+                    if (parts.Length == 2)
+                    {
+                        var start = TimeSpan.Parse(parts[0].Trim());
+                        var end = TimeSpan.Parse(parts[1].Trim());
+                        totalHours += (end - start).TotalHours;
+                    }
+                }
+                catch { } // Ignore format errors
+            }
+            return totalHours;
+        }
+
         [HttpGet("summary")]
         public IActionResult GetSummary()
         {
@@ -90,7 +113,9 @@ namespace DUANCHAMCONG.Controllers
 
             var result = allUsers.Select(u => {
                 var userAtts = attendances.Where(a => a.UserId == u.Id).ToList();
-                var totalHours = userAtts.Sum(a => (a.CheckOutTime!.Value - a.CheckInTime).TotalHours);
+                
+                // Thay vì tính CheckOut - CheckIn, tính tổng giờ của các ca đã đăng ký
+                var totalHours = userAtts.Sum(a => CalculateShiftHours(a.SelectedShifts));
                 
                 // Get distinct days they checked in
                 var totalDays = userAtts.Select(a => a.CheckInTime.Date).Distinct().Count();
@@ -132,6 +157,7 @@ namespace DUANCHAMCONG.Controllers
                     
                     // Ưu tiên hiển thị trạng thái quan trọng nhất
                     if (dayAtts.Any(a => a.Status.Contains("InvalidLocation"))) return "Invalid";
+                    if (dayAtts.Any(a => a.Status.Contains("ForgetCheckOut"))) return "ForgetCheckOut";
                     if (dayAtts.Any(a => a.Status.Contains("Late"))) return "Late";
                     return "OnTime";
                 }).ToList()
