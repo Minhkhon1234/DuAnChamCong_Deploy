@@ -109,7 +109,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 history.forEach(chat => {
                     const msg = chat.message || chat.Message;
                     const res = chat.response || chat.Response;
-                    if (msg) appendMessage('user', msg);
+                    if (msg && msg !== "[Hệ thống tự động chào hỏi]" && msg !== "Thông báo hệ thống") {
+                        appendMessage('user', msg);
+                    }
                     if (res) appendMessage('bot', res);
                 });
 
@@ -142,5 +144,15 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error("Lỗi tải lịch sử chat:", error);
         }
+    }
+
+    // Auto open chatbot on first load after login
+    const chatbotOpened = sessionStorage.getItem('chatbotAutoOpened');
+    if (!chatbotOpened && sessionStorage.getItem('role') === 'User') {
+        sessionStorage.setItem('chatbotAutoOpened', 'true');
+        setTimeout(() => {
+            chatbotWindow.style.display = 'flex';
+            loadChatHistory();
+        }, 1500); // Đợi 1.5s sau khi load trang rồi mới bật lên cho mượt
     }
 });
