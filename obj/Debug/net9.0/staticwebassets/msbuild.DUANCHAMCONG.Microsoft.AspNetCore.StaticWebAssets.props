@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xg4mftnk5x</Fingerprint>
-      <Integrity>38yKMKC3lrrRFzvEqtG5MpaXqE4jmkulhstMJYdrnek=</Integrity>
+      <Fingerprint>6r6k36r6wa</Fingerprint>
+      <Integrity>MkoPKlg/vuss769ilLh0Jo76g2/jdc8QHxgBxwkSA2o=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\auth.css'))</OriginalItemSpec>
@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>50sbba74cv</Fingerprint>
-      <Integrity>e9pYM5TvUhHjbi96TkBs76C5q7sAQsBbEKgHJ9GmWw0=</Integrity>
+      <Fingerprint>uc4ceeazcw</Fingerprint>
+      <Integrity>8jh28wKnVKudXj0SL6Ek3atFKtxvHn7m2W1B1TkOyeA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</OriginalItemSpec>

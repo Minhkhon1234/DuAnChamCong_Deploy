@@ -460,7 +460,6 @@ E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.
 E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\scopedcss\bundle\DUANCHAMCONG.styles.css
 E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\scopedcss\projectbundle\DUANCHAMCONG.bundle.scp.css
 E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\y2inl2lvm1-xzaj6zu28y.gz
-E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\tbuabtpacc-xg4mftnk5x.gz
 E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\a6olzhb5ug-ur838lvzax.gz
 E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\blbo9rjdbz-suzeckegvv.gz
 E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\rns2h53sew-2nhi4imb78.gz
@@ -551,4 +550,5 @@ E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\k2oo5hv9bt-64zvnrfksq.gz
 E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\msa6was548-y1acct3syl.gz
 E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\dxl12fir8w-rp6v4llotq.gz
 E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\420gftc0jq-6jabywj95i.gz
-E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\ae2fv6953n-50sbba74cv.gz
+E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\tbuabtpacc-6r6k36r6wa.gz
+E:\DUANCHAMCONG_09.05\obj\Debug\net9.0\compressed\ae2fv6953n-uc4ceeazcw.gz

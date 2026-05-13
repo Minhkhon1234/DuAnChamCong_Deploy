@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             } else {
                                 appendMessage('bot', 'Xin chào! Tôi có thể giúp gì cho bạn hôm nay?');
                             }
-                        } catch(e) {
+                        } catch (e) {
                             removeMessage(typingId);
                             appendMessage('bot', 'Xin chào! Tôi có thể giúp gì cho bạn hôm nay?');
                         }

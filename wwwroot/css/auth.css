@@ -7,7 +7,6 @@ body {
 }
 
 .navbar { display: none; } /* Ẩn navbar tạm thời ở trang login để đẹp hơn */
-footer { display: none; }
 
 .auth-container {
     display: flex;
