@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HLRqhVXJclY=",
+  "dgSpecHash": "aZKJl52s1uo=",
   "success": true,
-  "projectFilePath": "E:\\DUANCHAMCONG_09.05\\DUANCHAMCONG.csproj",
+  "projectFilePath": "E:\\DUANCHAMCONG_TESTDEPLOY\\DUANCHAMCONG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minhg\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\minhg\\.nuget\\packages\\closedxml\\0.105.0\\closedxml.0.105.0.nupkg.sha512",
