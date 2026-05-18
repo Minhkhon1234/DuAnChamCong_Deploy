@@ -1,323 +1,323 @@
 {
   "Files": [
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DUANCHAMCONG.bundle.scp.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DUANCHAMCONG.bundle.scp.css",
       "PackagePath": "staticwebassets\\DUANCHAMCONG.2y4vy8c5tf.bundle.scp.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\admin-dashboard.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\css\\admin-dashboard.css",
       "PackagePath": "staticwebassets\\css\\admin-dashboard.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\auth.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\css\\auth.css",
       "PackagePath": "staticwebassets\\css\\auth.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\chatbot.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\css\\chatbot.css",
       "PackagePath": "staticwebassets\\css\\chatbot.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\dashboard.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\css\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\site.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\css\\user-management.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\css\\user-management.css",
       "PackagePath": "staticwebassets\\css\\user-management.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\favicon.ico",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\admin-dashboard.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\admin-dashboard.js",
       "PackagePath": "staticwebassets\\js\\admin-dashboard.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\attendance-history.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\attendance-history.js",
       "PackagePath": "staticwebassets\\js\\attendance-history.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\auth.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\auth.js",
       "PackagePath": "staticwebassets\\js\\auth.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\chatbot.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\chatbot.js",
       "PackagePath": "staticwebassets\\js\\chatbot.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\dashboard.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\dashboard.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\leave-history.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\leave-history.js",
       "PackagePath": "staticwebassets\\js\\leave-history.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\monthly-report.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\monthly-report.js",
       "PackagePath": "staticwebassets\\js\\monthly-report.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\settings.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\settings.js",
       "PackagePath": "staticwebassets\\js\\settings.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\site.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\js\\user-management.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\user-management.js",
       "PackagePath": "staticwebassets\\js\\user-management.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\uploads\\leaverequests\\2b938977-c4b6-4940-a6e1-8bab8ee132af.jpg",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\uploads\\leaverequests\\2b938977-c4b6-4940-a6e1-8bab8ee132af.jpg",
       "PackagePath": "staticwebassets\\uploads\\leaverequests\\2b938977-c4b6-4940-a6e1-8bab8ee132af.jpg"
     },
     {
-      "Id": "E:\\DUANCHAMCONG_09.05\\wwwroot\\uploads\\leaverequests\\a686855a-d7aa-4ec4-834a-42a6157f9dc4.jpg",
+      "Id": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\uploads\\leaverequests\\a686855a-d7aa-4ec4-834a-42a6157f9dc4.jpg",
       "PackagePath": "staticwebassets\\uploads\\leaverequests\\a686855a-d7aa-4ec4-834a-42a6157f9dc4.jpg"
     },
     {
