@@ -18,6 +18,21 @@ namespace DUANCHAMCONG.Controllers
             _context = context;
         }
 
+        // ================= GET ADMIN STATS =================
+        [HttpGet("stats")]
+        public IActionResult GetStats()
+        {
+            var users = _context.Users.ToList();
+            var stats = new
+            {
+                TotalUsers = users.Count,
+                ActiveUsers = users.Count(u => u.IsActive),
+                InactiveUsers = users.Count(u => !u.IsActive),
+                TotalLeaders = users.Count(u => u.Role == "Leader")
+            };
+            return Ok(stats);
+        }
+
         // ================= GET ALL USERS =================
         [HttpGet]
         public IActionResult GetAllUsers()

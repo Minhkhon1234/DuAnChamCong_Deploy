@@ -33,6 +33,11 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult LeaderDashboard()
+    {
+        return View();
+    }
+
     public IActionResult UserManagement()
     {
         return View();

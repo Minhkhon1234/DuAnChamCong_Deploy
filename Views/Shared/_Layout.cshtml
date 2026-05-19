@@ -40,8 +40,13 @@
                         <span class="menu-icon">✉️</span> Đơn Xin Nghỉ
                     </a>
                 </li>
+                <li class="menu-item admin-only" style="display: none;">
+                    <a href="/Home/AdminDashboard" class="menu-link" id="nav-admin-dashboard">
+                        <span class="menu-icon">🛡️</span> Admin Dashboard
+                    </a>
+                </li>
                 <li class="menu-item leader-only" style="display: none;">
-                    <a href="/Home/AdminDashboard" class="menu-link" id="nav-admin">
+                    <a href="/Home/LeaderDashboard" class="menu-link" id="nav-leader">
                         <span class="menu-icon">🛡️</span> Quản Lý Chấm Công
                     </a>
                 </li>
@@ -170,9 +175,9 @@
                 sidebarLogo.addEventListener('click', (e) => {
                     e.preventDefault();
                     if (role === 'Admin') {
-                        window.location.href = '/Home/UserManagement';
-                    } else if (role === 'Leader') {
                         window.location.href = '/Home/AdminDashboard';
+                    } else if (role === 'Leader') {
+                        window.location.href = '/Home/LeaderDashboard';
                     } else {
                         window.location.href = '/Home/Dashboard';
                     }
