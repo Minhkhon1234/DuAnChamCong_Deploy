@@ -40,9 +40,9 @@
                         <span class="menu-icon">✉️</span> Đơn Xin Nghỉ
                     </a>
                 </li>
-                <li class="menu-item admin-only" style="display: none;">
+                <li class="menu-item leader-only" style="display: none;">
                     <a href="/Home/AdminDashboard" class="menu-link" id="nav-admin">
-                        <span class="menu-icon">🛡️</span> Admin Panel
+                        <span class="menu-icon">🛡️</span> Quản Lý Chấm Công
                     </a>
                 </li>
                 <li class="menu-item admin-only" style="display: none;">
@@ -50,12 +50,12 @@
                         <span class="menu-icon">👥</span> Quản Lý Nhân Sự
                     </a>
                 </li>
-                <li class="menu-item admin-only" style="display: none;">
+                <li class="menu-item leader-only" style="display: none;">
                     <a href="/Home/MonthlyReport" class="menu-link" id="nav-report">
                         <span class="menu-icon">📈</span> Báo Cáo & Lương
                     </a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item admin-only" style="display: none;">
                     <a href="/Home/Settings" class="menu-link" id="nav-settings">
                         <span class="menu-icon">⚙️</span> Cài Đặt
                     </a>
@@ -137,8 +137,10 @@
             const fullName = sessionStorage.getItem('fullName');
 
             if (token) {
-                if (role === 'Admin' || role === 'Leader') {
+                if (role === 'Admin') {
                     document.querySelectorAll('.admin-only').forEach(el => el.style.display = 'block');
+                } else if (role === 'Leader') {
+                    document.querySelectorAll('.leader-only').forEach(el => el.style.display = 'block');
                 } else {
                     document.querySelectorAll('.user-only').forEach(el => el.style.display = 'block');
                 }
@@ -167,7 +169,9 @@
             if (sidebarLogo) {
                 sidebarLogo.addEventListener('click', (e) => {
                     e.preventDefault();
-                    if (role === 'Admin' || role === 'Leader') {
+                    if (role === 'Admin') {
+                        window.location.href = '/Home/UserManagement';
+                    } else if (role === 'Leader') {
                         window.location.href = '/Home/AdminDashboard';
                     } else {
                         window.location.href = '/Home/Dashboard';

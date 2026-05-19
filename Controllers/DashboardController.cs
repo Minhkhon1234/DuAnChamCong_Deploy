@@ -8,7 +8,7 @@ namespace DUANCHAMCONG.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = "Admin,Leader")]
+    [Authorize(Roles = "Leader")]
     public class DashboardController : ControllerBase
     {
         private readonly ApplicationDbContext _context;

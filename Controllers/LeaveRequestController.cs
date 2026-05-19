@@ -110,7 +110,7 @@ namespace DUANCHAMCONG.Controllers
 
         // ================= GET ALL REQUESTS (ADMIN/LEADER) =================
         [HttpGet("admin")]
-        [Authorize(Roles = "Admin,Leader")]
+        [Authorize(Roles = "Leader")]
         public async Task<IActionResult> GetAllRequests()
         {
             var requests = await _context.LeaveRequests
@@ -134,7 +134,7 @@ namespace DUANCHAMCONG.Controllers
 
         // ================= HANDLE REQUEST (ADMIN/LEADER) =================
         [HttpPost("handle/{id}")]
-        [Authorize(Roles = "Admin,Leader")]
+        [Authorize(Roles = "Leader")]
         public async Task<IActionResult> HandleRequest(int id, [FromBody] string status)
         {
             if (status != "Approved" && status != "Rejected")
