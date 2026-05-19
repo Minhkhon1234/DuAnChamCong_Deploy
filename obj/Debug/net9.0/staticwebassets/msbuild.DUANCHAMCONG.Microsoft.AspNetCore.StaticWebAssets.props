@@ -1458,6 +1458,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\6a0c3050-7a96-413b-ae4f-fc2596cb8c26.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DUANCHAMCONG</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DUANCHAMCONG</BasePath>
+      <RelativePath>uploads/leaverequests/9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9mubvhaxep</Fingerprint>
+      <Integrity>wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\a686855a-d7aa-4ec4-834a-42a6157f9dc4.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>DUANCHAMCONG</SourceId>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "clIotwNUIoCq6WLB1jeY/g9iDKUBbF4CHtzSTOxcyz0=",
+  "Hash": "kqrEUsJcXNwaQmA33G3PZKz6S696IbtBIBbNjgWWWmM=",
   "Source": "DUANCHAMCONG",
   "BasePath": "_content/DUANCHAMCONG",
   "Mode": "Default",
@@ -3375,6 +3375,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\leaverequests\\6a0c3050-7a96-413b-ae4f-fc2596cb8c26.jpg"
+    },
+    {
+      "Identity": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\uploads\\leaverequests\\9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.jpg",
+      "SourceId": "DUANCHAMCONG",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\",
+      "BasePath": "_content/DUANCHAMCONG",
+      "RelativePath": "uploads/leaverequests/9ef27e67-83fc-4d5d-bb6c-98cfd598af6a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9mubvhaxep",
+      "Integrity": "wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\leaverequests\\9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.jpg"
     },
     {
       "Identity": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\uploads\\leaverequests\\a686855a-d7aa-4ec4-834a-42a6157f9dc4.jpg",
@@ -26958,6 +26979,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 19 May 2026 01:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/leaverequests/9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.9mubvhaxep.jpg",
+      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\uploads\\leaverequests\\9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 May 2026 01:58:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9mubvhaxep"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/leaverequests/9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/leaverequests/9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.jpg",
+      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\uploads\\leaverequests\\9ef27e67-83fc-4d5d-bb6c-98cfd598af6a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 May 2026 01:58:18 GMT"
         },
         {
           "Name": "Cache-Control",
