@@ -21,6 +21,12 @@ namespace DUANCHAMCONG.Controllers
             _context = context;
             _config = config;
         }
+        // ================= GIỜ VIỆT NAM =================
+        private DateTime VietnamNow =>
+            TimeZoneInfo.ConvertTimeFromUtc(
+                DateTime.UtcNow,
+                TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time")
+            );
 
         private double CalculateShiftHours(string? selectedShifts)
         {
@@ -63,7 +69,7 @@ namespace DUANCHAMCONG.Controllers
                 return Unauthorized();
             var userId = int.Parse(userIdStr);
 
-            var today = DateTime.Today;
+            var today = DateTime.UtcNow.Date;
 
             var schools = _config.GetSection("Schools").Get<List<SchoolConfig>>();
             var school = schools?.FirstOrDefault(s => s.Id == dto.SchoolId);
@@ -106,7 +112,7 @@ namespace DUANCHAMCONG.Controllers
             if (lastRecordToday != null)
             {
                 var lastTime = lastRecordToday.CheckOutTime ?? lastRecordToday.CheckInTime;
-                var timeDiffHours = (DateTime.Now - lastTime).TotalHours;
+                var timeDiffHours = (DateTime.UtcNow - lastTime).TotalHours;
 
                 if (timeDiffHours > 0 && timeDiffHours < 24) // Nếu < 24 tiếng để tránh lỗi logic
                 {
@@ -154,7 +160,7 @@ namespace DUANCHAMCONG.Controllers
                             .OrderBy(t => t)
                             .First();
 
-                        var currentTime = DateTime.Now.TimeOfDay;
+                        var currentTime = VietnamNow.TimeOfDay;
                         
                         // 👉 Nhân viên có thể check-in sớm bao nhiêu cũng được
                         // 👉 Trạng thái: Muộn (Late) nếu sau giờ bắt đầu ca, Đúng giờ (OnTime) nếu trước hoặc bằng giờ bắt đầu ca
@@ -163,20 +169,20 @@ namespace DUANCHAMCONG.Controllers
                     catch
                     {
                         // Fallback nếu có lỗi parse (không nên xảy ra)
-                        statusText = DateTime.Now.TimeOfDay > new TimeSpan(8, 30, 0) ? "Late" : "OnTime";
+                        statusText = VietnamNow.TimeOfDay > new TimeSpan(8, 30, 0) ? "Late" : "OnTime";
                     }
                 }
                 else
                 {
                     // Fallback nếu không có ca (mặc định 8:30)
-                    statusText = DateTime.Now.TimeOfDay > new TimeSpan(8, 30, 0) ? "Late" : "OnTime";
+                    statusText = VietnamNow.TimeOfDay > new TimeSpan(8, 30, 0) ? "Late" : "OnTime";
                 }
             }
 
             var attendance = new Attendance
             {
                 UserId = userId,
-                CheckInTime = DateTime.Now,
+                CheckInTime = DateTime.UtcNow,
                 Latitude = dto.Latitude,
                 Longitude = dto.Longitude,
                 Status = statusText,
@@ -206,7 +212,7 @@ namespace DUANCHAMCONG.Controllers
                 return Unauthorized();
             var userId = int.Parse(userIdStr);
 
-            var today = DateTime.Today;
+            var today = DateTime.UtcNow.Date;
 
             var schools = _config.GetSection("Schools").Get<List<SchoolConfig>>();
             var school = schools?.FirstOrDefault(s => s.Id == dto.SchoolId);
@@ -227,7 +233,7 @@ namespace DUANCHAMCONG.Controllers
             if (attendance == null)
                 return BadRequest("Bạn không có ca làm việc nào đang mở tại cơ sở này hôm nay.");
 
-            attendance.CheckOutTime = DateTime.Now;
+            attendance.CheckOutTime = DateTime.UtcNow;
 
             // 👉 Tính giờ làm (Theo thời gian ca đã đăng ký)
             var totalHours = CalculateShiftHours(attendance.SelectedShifts);
@@ -239,13 +245,14 @@ namespace DUANCHAMCONG.Controllers
                 {
                     // Lấy giờ kết thúc của ca muộn nhất (ví dụ: "08:00 - 09:15, 09:30 - 10:45" -> lấy 10:45)
                     var shifts = attendance.SelectedShifts.Split(", ");
+
                     var lastShiftEndTime = shifts
                         .Select(s => s.Split('-')[1].Trim())
                         .Select(t => TimeSpan.Parse(t))
                         .OrderByDescending(t => t)
                         .First();
 
-                    if (DateTime.Now.TimeOfDay < lastShiftEndTime)
+                    if (VietnamNow.TimeOfDay < lastShiftEndTime)
                     {
                         if (!attendance.Status.Contains("EarlyLeave"))
                         {
@@ -259,7 +266,7 @@ namespace DUANCHAMCONG.Controllers
             else 
             {
                 // Fallback mốc 17:00 nếu không có ca
-                if (DateTime.Now.TimeOfDay < new TimeSpan(17, 0, 0))
+                if (VietnamNow.TimeOfDay < new TimeSpan(17, 0, 0))
                 {
                     if (!attendance.Status.Contains("EarlyLeave"))
                     {
@@ -291,9 +298,9 @@ namespace DUANCHAMCONG.Controllers
             var user = _context.Users.Find(userId);
             if (user == null) return NotFound();
 
-            var today = DateTime.Today;
-            var firstDayOfMonth = new DateTime(today.Year, today.Month, 1);
-            var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddDays(1).AddTicks(-1);
+            var today = DateTime.UtcNow.Date;
+            var firstDayOfMonth = new DateTime(today.Year, today.Month, 1, 0, 0, 0, DateTimeKind.Utc);
+            var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddTicks(-1); //var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddDays(1).AddTicks(-1);
 
             // Chỉ lấy dữ liệu trong tháng hiện tại
             var currentMonthAttendances = _context.Attendances
@@ -321,8 +328,8 @@ namespace DUANCHAMCONG.Controllers
                     .OrderByDescending(x => x.CheckInTime)
                     .Select(x => (object)new
                     {
-                        x.CheckInTime,
-                        x.CheckOutTime,
+                        CheckInTime = x.CheckInTime.ToLocalTime(),
+                        CheckOutTime = x.CheckOutTime?.ToLocalTime(),  
                         x.Status,
                         x.SchoolName,
                         x.Latitude,
@@ -339,7 +346,7 @@ namespace DUANCHAMCONG.Controllers
                 Summary = summary,
                 Details = details,
                 TodayOpenRecord = openRecord != null ? new {
-                    openRecord.CheckInTime,
+                    CheckInTime = openRecord.CheckInTime.ToLocalTime(),
                     openRecord.Status,
                     openRecord.SchoolName,
                     openRecord.SelectedShifts

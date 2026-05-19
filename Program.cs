@@ -5,7 +5,6 @@ using Microsoft.IdentityModel.Tokens;
 using DUANCHAMCONG.Services; // Thêm namespace
 using System.Text;
 using Microsoft.OpenApi.Models;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

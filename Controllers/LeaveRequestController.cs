@@ -53,14 +53,26 @@ namespace DUANCHAMCONG.Controllers
                 imagePath = "/uploads/leaverequests/" + fileName;
             }
 
+            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+            var extension = Path.GetExtension(dto.Image.FileName).ToLower();
+            if (!allowedExtensions.Contains(extension))
+            {
+                return BadRequest("Chỉ cho phép tải lên các file ảnh (.jpg, .jpeg, .png).");
+            }
+
+             if (dto.Image.Length > 5 * 1024 * 1024) // 5MB
+            {
+                return BadRequest("Kích thước file ảnh không được vượt quá 5MB.");
+            }
+
             var request = new LeaveRequest
             {
                 UserId = userId,
-                LeaveDate = dto.LeaveDate,
+                LeaveDate = DateTime.SpecifyKind(dto.LeaveDate, DateTimeKind.Utc),
                 Reason = dto.Reason,
                 ImagePath = imagePath,
                 Status = "Pending",
-                CreatedAt = DateTime.Now
+                CreatedAt = DateTime.UtcNow
             };
 
             _context.LeaveRequests.Add(request);
@@ -85,11 +97,11 @@ namespace DUANCHAMCONG.Controllers
                     Id = r.Id,
                     UserId = r.UserId,
                     UserFullName = r.User.FullName,
-                    LeaveDate = r.LeaveDate,
+                    LeaveDate = r.LeaveDate.ToLocalTime(),
                     Reason = r.Reason,
                     ImagePath = r.ImagePath,
                     Status = r.Status,
-                    CreatedAt = r.CreatedAt
+                    CreatedAt = r.CreatedAt.ToLocalTime()
                 })
                 .ToListAsync();
 
@@ -109,11 +121,11 @@ namespace DUANCHAMCONG.Controllers
                     Id = r.Id,
                     UserId = r.UserId,
                     UserFullName = r.User.FullName,
-                    LeaveDate = r.LeaveDate,
+                    LeaveDate = r.LeaveDate.ToLocalTime(),
                     Reason = r.Reason,
                     ImagePath = r.ImagePath,
                     Status = r.Status,
-                    CreatedAt = r.CreatedAt
+                    CreatedAt = r.CreatedAt.ToLocalTime()
                 })
                 .ToListAsync();
 
