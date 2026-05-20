@@ -188,6 +188,23 @@
                 });
             }
 
+            // Mobile Menu Toggle Logic
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const sidebar = document.getElementById('sidebar');
+            const mobileSidebarOverlay = document.getElementById('mobileSidebarOverlay');
+
+            if (mobileMenuBtn && sidebar && mobileSidebarOverlay) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    sidebar.classList.add('mobile-active');
+                    mobileSidebarOverlay.style.display = 'block';
+                });
+
+                mobileSidebarOverlay.addEventListener('click', () => {
+                    sidebar.classList.remove('mobile-active');
+                    mobileSidebarOverlay.style.display = 'none';
+                });
+            }
+
             // Set active class based on URL
             const currentPath = window.location.pathname;
             document.querySelectorAll('.menu-link').forEach(link => {

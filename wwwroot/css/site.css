@@ -176,3 +176,40 @@ body {
     color: #a0aec0;
     font-size: 0.9rem;
 }
+/* Mobile Menu and Overlay */
+.mobile-sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    backdrop-filter: blur(2px);
+}
+
+@media (max-width: 992px) {
+    .mobile-menu-btn {
+        display: block !important;
+    }
+    
+    .sidebar {
+        /* Sidebar already has translateX(-100%) from previous rule */
+        box-shadow: 10px 0 25px rgba(0,0,0,0.5);
+    }
+    
+    .top-navbar {
+        padding: 10px 15px;
+    }
+    
+    .main-content {
+        padding: 15px;
+    }
+    
+    /* Make tables scrollable on mobile */
+    .table-responsive {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
