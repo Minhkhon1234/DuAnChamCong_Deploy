@@ -163,7 +163,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         document.querySelectorAll('input[name="shift"]').forEach(cb => cb.checked = false);
                         loadState();
                     } else {
-                        showToast(result.message || "Lỗi Check-in", "error");
+                        let errorMessage = "Lỗi Check-in";
+                        if (typeof result === 'string') {
+                            errorMessage = result;
+                        } else if (result.message) {
+                            errorMessage = result.message;
+                        } else if (result.title) {
+                            errorMessage = result.title;
+                        }
+                        showToast(errorMessage, "error");
                         showLoading(false);
                     }
                 } catch (error) {
@@ -241,7 +249,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 showToast("Check-out thành công!", "success");
                 loadState();
             } else {
-                showToast("Lỗi Check-out", "error");
+                let errorMessage = "Lỗi Check-out";
+                const textResult = await response.text();
+                let result;
+                try { result = JSON.parse(textResult); } catch { result = textResult; }
+                
+                if (typeof result === 'string') {
+                    errorMessage = result;
+                } else if (result.message) {
+                    errorMessage = result.message;
+                } else if (result.title) {
+                    errorMessage = result.title;
+                }
+                showToast(errorMessage, "error");
                 showLoading(false);
             }
         } catch (error) {
