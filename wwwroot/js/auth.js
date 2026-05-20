@@ -16,6 +16,24 @@ signInBtn.addEventListener('click', () => {
     authBox.classList.remove("right-panel-active");
 });
 
+// Mobile toggle links
+const mobileSignUpLink = document.getElementById('mobileSignUpLink');
+const mobileSignInLink = document.getElementById('mobileSignInLink');
+
+if (mobileSignUpLink) {
+    mobileSignUpLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        authBox.classList.add("right-panel-active");
+    });
+}
+
+if (mobileSignInLink) {
+    mobileSignInLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        authBox.classList.remove("right-panel-active");
+    });
+}
+
 // Show Toast function
 function showToast(message, type = 'success') {
     toast.textContent = message;
