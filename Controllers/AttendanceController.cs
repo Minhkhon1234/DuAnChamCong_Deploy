@@ -22,11 +22,34 @@ namespace DUANCHAMCONG.Controllers
             _config = config;
         }
         // ================= GIỜ VIỆT NAM =================
-        private DateTime VietnamNow =>
-            TimeZoneInfo.ConvertTimeFromUtc(
-                DateTime.UtcNow,
-                TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time")
-            );
+        private DateTime VietnamNow 
+        {
+            get 
+            {
+                try 
+                {
+                    return TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("Asia/Ho_Chi_Minh"));
+                }
+                catch 
+                {
+                    try 
+                    {
+                        return TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("SE Asia Standard Time"));
+                    }
+                    catch 
+                    {
+                        return DateTime.UtcNow.AddHours(7);
+                    }
+                }
+            }
+        }
+
+        private (DateTime Start, DateTime End) GetVietnamDayRange(DateTime vietnamDate)
+        {
+            var start = new DateTime(vietnamDate.Year, vietnamDate.Month, vietnamDate.Day, 0, 0, 0, DateTimeKind.Utc).AddHours(-7);
+            var end = start.AddDays(1);
+            return (start, end);
+        }
 
         private double CalculateShiftHours(string? selectedShifts)
         {
@@ -69,7 +92,8 @@ namespace DUANCHAMCONG.Controllers
                 return Unauthorized();
             var userId = int.Parse(userIdStr);
 
-            var today = DateTime.UtcNow.Date;
+            var todayVN = VietnamNow.Date;
+            var (startOfDayUtc, endOfDayUtc) = GetVietnamDayRange(todayVN);
 
             var schools = _config.GetSection("Schools").Get<List<SchoolConfig>>();
             var school = schools?.FirstOrDefault(s => s.Id == dto.SchoolId);
@@ -80,7 +104,7 @@ namespace DUANCHAMCONG.Controllers
             }
 
             var openShift = _context.Attendances
-                .Any(x => x.UserId == userId && x.CheckInTime.Date == today && x.CheckOutTime == null && !x.Status.Contains("InvalidLocation"));
+                .Any(x => x.UserId == userId && x.CheckInTime >= startOfDayUtc && x.CheckInTime < endOfDayUtc && x.CheckOutTime == null && !x.Status.Contains("InvalidLocation"));
 
             if (openShift)
                 return BadRequest("Bạn đang có một ca làm việc chưa kết thúc. Vui lòng Check-out ca cũ trước khi Check-in mới.");
@@ -91,11 +115,10 @@ namespace DUANCHAMCONG.Controllers
                 return BadRequest($"Tín hiệu GPS quá yếu (Sai số: {Math.Round(dto.Accuracy.Value)}m). Vui lòng ra khu vực thoáng hoặc bật định vị độ chính xác cao.");
             }
 
-            // 2. Chống Chấm công hộ (Kiểm tra DeviceId)
             if (!string.IsNullOrEmpty(dto.DeviceId))
             {
                 var otherUserUsedThisDevice = _context.Attendances
-                    .Any(x => x.DeviceId == dto.DeviceId && x.UserId != userId && x.CheckInTime.Date == today);
+                    .Any(x => x.DeviceId == dto.DeviceId && x.UserId != userId && x.CheckInTime >= startOfDayUtc && x.CheckInTime < endOfDayUtc);
                 
                 if (otherUserUsedThisDevice)
                 {
@@ -105,7 +128,7 @@ namespace DUANCHAMCONG.Controllers
 
             // 3. Chống Fake GPS (Teleportation check)
             var lastRecordToday = _context.Attendances
-                .Where(x => x.UserId == userId && x.CheckInTime.Date == today && !x.Status.Contains("InvalidLocation"))
+                .Where(x => x.UserId == userId && x.CheckInTime >= startOfDayUtc && x.CheckInTime < endOfDayUtc && !x.Status.Contains("InvalidLocation"))
                 .OrderByDescending(x => x.CheckOutTime ?? x.CheckInTime)
                 .FirstOrDefault();
 
@@ -212,7 +235,8 @@ namespace DUANCHAMCONG.Controllers
                 return Unauthorized();
             var userId = int.Parse(userIdStr);
 
-            var today = DateTime.UtcNow.Date;
+            var todayVN = VietnamNow.Date;
+            var (startOfDayUtc, endOfDayUtc) = GetVietnamDayRange(todayVN);
 
             var schools = _config.GetSection("Schools").Get<List<SchoolConfig>>();
             var school = schools?.FirstOrDefault(s => s.Id == dto.SchoolId);
@@ -225,7 +249,7 @@ namespace DUANCHAMCONG.Controllers
             var attendance = _context.Attendances
                 .FirstOrDefault(x =>
                     x.UserId == userId &&
-                    x.CheckInTime.Date == today &&
+                    x.CheckInTime >= startOfDayUtc && x.CheckInTime < endOfDayUtc &&
                     x.SchoolName == school.Name &&
                     x.CheckOutTime == null && 
                     !x.Status.Contains("InvalidLocation"));
@@ -298,9 +322,10 @@ namespace DUANCHAMCONG.Controllers
             var user = _context.Users.Find(userId);
             if (user == null) return NotFound();
 
-            var today = DateTime.UtcNow.Date;
-            var firstDayOfMonth = new DateTime(today.Year, today.Month, 1, 0, 0, 0, DateTimeKind.Utc);
-            var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddTicks(-1); //var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddDays(1).AddTicks(-1);
+            var todayVN = VietnamNow.Date;
+            var (startOfDayUtc, endOfDayUtc) = GetVietnamDayRange(todayVN);
+            var firstDayOfMonth = new DateTime(todayVN.Year, todayVN.Month, 1, 0, 0, 0, DateTimeKind.Utc).AddHours(-7);
+            var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddTicks(-1);
 
             // Chỉ lấy dữ liệu trong tháng hiện tại
             var currentMonthAttendances = _context.Attendances
@@ -316,7 +341,7 @@ namespace DUANCHAMCONG.Controllers
 
             // Luôn tìm ca đang mở hôm nay để UI xử lý nút Check-out
             var openRecord = currentMonthAttendances.FirstOrDefault(x => 
-                x.CheckInTime.Date == today && 
+                x.CheckInTime >= startOfDayUtc && x.CheckInTime < endOfDayUtc && 
                 x.CheckOutTime == null && 
                 !x.Status.Contains("InvalidLocation"));
 

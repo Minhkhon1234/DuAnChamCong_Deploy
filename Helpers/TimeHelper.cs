@@ -19,7 +19,7 @@ namespace DUANCHAMCONG.Helpers
 
         public static DateTime ToVietnamTime(DateTime utcTime)
         {
-            return EnsureUtc(utcTime).AddHours(7);
+            return DateTime.SpecifyKind(EnsureUtc(utcTime).AddHours(7), DateTimeKind.Unspecified);
         }
 
         public static DateTime VietnamToUtc(DateTime vnTime)
