@@ -40,10 +40,22 @@ namespace DUANCHAMCONG.Controllers
             string? imagePath = null;
             if (dto.Image != null && dto.Image.Length > 0)
             {
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".heic", ".heif", ".webp", ".pdf" };
+                var extension = Path.GetExtension(dto.Image.FileName).ToLower();
+                if (!allowedExtensions.Contains(extension))
+                {
+                    return BadRequest("Chỉ cho phép tải lên các file ảnh (.jpg, .jpeg, .png, .heic, .webp) hoặc .pdf.");
+                }
+
+                if (dto.Image.Length > 10 * 1024 * 1024) // 10MB
+                {
+                    return BadRequest("Kích thước file ảnh không được vượt quá 10MB.");
+                }
+
                 var uploadsFolder = Path.Combine(_env.WebRootPath, "uploads", "leaverequests");
                 if (!Directory.Exists(uploadsFolder)) Directory.CreateDirectory(uploadsFolder);
 
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(dto.Image.FileName);
+                var fileName = Guid.NewGuid().ToString() + extension;
                 var filePath = Path.Combine(uploadsFolder, fileName);
 
                 using (var stream = new FileStream(filePath, FileMode.Create))
@@ -51,18 +63,6 @@ namespace DUANCHAMCONG.Controllers
                     await dto.Image.CopyToAsync(stream);
                 }
                 imagePath = "/uploads/leaverequests/" + fileName;
-            }
-
-            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
-            var extension = Path.GetExtension(dto.Image.FileName).ToLower();
-            if (!allowedExtensions.Contains(extension))
-            {
-                return BadRequest("Chỉ cho phép tải lên các file ảnh (.jpg, .jpeg, .png).");
-            }
-
-             if (dto.Image.Length > 5 * 1024 * 1024) // 5MB
-            {
-                return BadRequest("Kích thước file ảnh không được vượt quá 5MB.");
             }
 
             var request = new LeaveRequest
