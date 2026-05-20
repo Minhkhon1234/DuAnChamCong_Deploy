@@ -51,8 +51,10 @@ loginForm.addEventListener('submit', async (e) => {
 
             // Redirect based on role
             setTimeout(() => {
-                if (data.role === 'Admin' || data.role === 'Leader') {
+                if (data.role === 'Admin') {
                     window.location.href = '/Home/AdminDashboard';
+                } else if (data.role === 'Leader') {
+                    window.location.href = '/Home/LeaderDashboard';
                 } else {
                     window.location.href = '/Home/Dashboard';
                 }
