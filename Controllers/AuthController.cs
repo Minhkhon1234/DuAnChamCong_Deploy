@@ -85,27 +85,21 @@ namespace DUANCHAMCONG.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-        // [Authorize]
-        // [HttpGet("test")]
-        // public IActionResult Test()
-        // {
-        //     return Ok("Bạn đã đăng nhập thành công!");
-        // }
-        //Admin 
+        
         [Authorize(Roles = "Admin")]
         [HttpGet("admin")]
         public IActionResult Admin()
         {
             return Ok("Bạn là admin!");
         }
-        //Leader
+    
         [Authorize(Roles = "Leader")]
         [HttpGet("leader")]
         public IActionResult Leader()
         {
             return Ok("Bạn là leader!");
         }    
-        //User
+        
         [Authorize(Roles = "User")]
         [HttpGet("user")]   
         public IActionResult UserRole()

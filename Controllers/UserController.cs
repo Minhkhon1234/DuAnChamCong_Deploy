@@ -158,7 +158,7 @@ namespace DUANCHAMCONG.Controllers
             if (user == null) return NotFound("Không tìm thấy người dùng.");
 
             user.CanViewDetails = true;
-            user.RequestViewDetails = false; // Reset trạng thái yêu cầu sau khi duyệt
+            user.RequestViewDetails = false; 
             _context.SaveChanges();
 
             return Ok(new { message = "Đã cho phép người dùng xem bảng công chi tiết tháng này." });
@@ -171,7 +171,7 @@ namespace DUANCHAMCONG.Controllers
             if (user == null) return NotFound("Không tìm thấy người dùng.");
 
             user.CanViewDetails = false;
-            user.RequestViewDetails = false; // Reset request status too
+            user.RequestViewDetails = false; 
             _context.SaveChanges();
 
             return Ok(new { message = "Đã khóa quyền xem bảng công chi tiết." });

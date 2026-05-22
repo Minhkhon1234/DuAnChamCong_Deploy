@@ -86,7 +86,7 @@ namespace DUANCHAMCONG.Controllers
         [HttpPost("checkin")]
         public IActionResult CheckIn(CheckInDto dto)
         {
-            // var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)); - Đổi sang 4 dòng dưới
+            // var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)); 
             var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (string.IsNullOrEmpty(userIdStr))
                 return Unauthorized();
@@ -137,7 +137,7 @@ namespace DUANCHAMCONG.Controllers
                 var lastTime = lastRecordToday.CheckOutTime ?? lastRecordToday.CheckInTime;
                 var timeDiffHours = (DateTime.UtcNow - lastTime).TotalHours;
 
-                if (timeDiffHours > 0 && timeDiffHours < 24) // Nếu < 24 tiếng để tránh lỗi logic
+                if (timeDiffHours > 0 && timeDiffHours < 24) 
                 {
                     if (lastRecordToday.Latitude.HasValue && lastRecordToday.Longitude.HasValue)
                     {
@@ -146,7 +146,7 @@ namespace DUANCHAMCONG.Controllers
                         // Vận tốc (km/h)
                         var speedKmH = distanceKm / timeDiffHours;
 
-                        if (speedKmH > 100) // Nếu tốc độ lớn hơn 100km/h
+                        if (speedKmH > 100) 
                         {
                             return BadRequest($"Phát hiện di chuyển bất thường! Tốc độ trung bình {Math.Round(speedKmH)} km/h. Nghi ngờ sử dụng Fake GPS.");
                         }
@@ -171,12 +171,12 @@ namespace DUANCHAMCONG.Controllers
             }
             else 
             {
-                // 👉 Tính trạng thái Đúng giờ/Đi muộn dựa trên ca làm việc đầu tiên
+                // Tính trạng thái Đúng giờ/Đi muộn dựa trên ca làm việc đầu tiên
                 if (dto.SelectedShifts != null && dto.SelectedShifts.Any())
                 {
                     try 
                     {
-                        // Lấy giờ bắt đầu của ca sớm nhất (ví dụ: "08:00 - 09:15" -> lấy 08:00)
+                        // Lấy giờ bắt đầu của ca sớm nhất 
                         var earliestShiftTime = dto.SelectedShifts
                             .Select(s => s.Split('-')[0].Trim())
                             .Select(t => TimeSpan.Parse(t))
@@ -185,13 +185,11 @@ namespace DUANCHAMCONG.Controllers
 
                         var currentTime = VietnamNow.TimeOfDay;
                         
-                        // 👉 Nhân viên có thể check-in sớm bao nhiêu cũng được
-                        // 👉 Trạng thái: Muộn (Late) nếu sau giờ bắt đầu ca, Đúng giờ (OnTime) nếu trước hoặc bằng giờ bắt đầu ca
                         statusText = currentTime > earliestShiftTime ? "Late" : "OnTime";
                     }
                     catch
                     {
-                        // Fallback nếu có lỗi parse (không nên xảy ra)
+                        // Fallback nếu có lỗi ptich                         
                         statusText = VietnamNow.TimeOfDay > new TimeSpan(8, 30, 0) ? "Late" : "OnTime";
                     }
                 }
@@ -339,7 +337,7 @@ namespace DUANCHAMCONG.Controllers
                 LateCount = currentMonthAttendances.Count(x => x.Status != null && x.Status.Contains("Late"))
             };
 
-            // Luôn tìm ca đang mở hôm nay để UI xử lý nút Check-out
+            // Luôn tìm ca đang mở hôm nay để xử lý nút Check-out
             var openRecord = currentMonthAttendances.FirstOrDefault(x => 
                 x.CheckInTime >= startOfDayUtc && x.CheckInTime < endOfDayUtc && 
                 x.CheckOutTime == null && 

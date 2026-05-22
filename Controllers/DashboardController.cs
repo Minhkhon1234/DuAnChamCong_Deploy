@@ -33,16 +33,16 @@ namespace DUANCHAMCONG.Controllers
                     {
                         var start = TimeSpan.Parse(parts[0].Trim());
                         var end = TimeSpan.Parse(parts[1].Trim());
-                        // totalHours += (end - start).TotalHours;
+                        
                         var duration = end - start;
                         if (duration.TotalHours < 0)
                         {
-                            duration = duration.Add(TimeSpan.FromHours(24)); // Handle overnight shifts
+                            duration = duration.Add(TimeSpan.FromHours(24)); 
                         }
                         totalHours += duration.TotalHours;
                     }
                 }
-                catch { } // Ignore format errors
+                catch { } 
             }
             return totalHours;
         }
@@ -118,16 +118,7 @@ namespace DUANCHAMCONG.Controllers
             var targetMonth = month ?? now.Month;
             var targetYear = year ?? now.Year;
 
-            // var attendances = _context.Attendances
-            //     .Where(a => a.CheckInTime.Year == targetYear && 
-            //                 a.CheckInTime.Month == targetMonth && 
-            //                 (a.Status == null || a.Status == null || !a.Status.Contains(AttendanceStatus.InvalidLocation)) &&
-            //                 a.CheckOutTime != null)
-            //     .ToList();
-            // var startMonth = DateTime.SpecifyKind(new DateTime(targetYear, targetMonth, 1), DateTimeKind.Utc);
-            // var vnStart = new DateTime(targetYear, targetMonth, 1);
-            // var startMonth = vnStart.AddHours(-7);
-            // var endMonth = startMonth.AddMonths(1);
+            
             var vnStart = new DateTime(targetYear, targetMonth, 1);
             var vnEnd = vnStart.AddMonths(1);
 
@@ -146,7 +137,6 @@ namespace DUANCHAMCONG.Controllers
             var result = allUsers.Select(u => {
                 var userAtts = attendances.Where(a => a.UserId == u.Id).ToList();
                 
-                // Thay vì tính CheckOut - CheckIn, tính tổng giờ của các ca đã đăng ký
                 var totalHours = userAtts.Sum(a => CalculateShiftHours(a.SelectedShifts));
                 
                 // Get distinct days they checked in
