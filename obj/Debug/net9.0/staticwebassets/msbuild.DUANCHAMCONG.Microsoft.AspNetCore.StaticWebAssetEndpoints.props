@@ -132,17 +132,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"omqm9x4h7r"},{"Name":"integrity","Value":"sha256-sIJoEV5sS\u002BPts9QORlJXAS2eldLXcmitYzqkvdmLurU="},{"Name":"label","Value":"_content/DUANCHAMCONG/js/auth.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4570"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022sIJoEV5sS\u002BPts9QORlJXAS2eldLXcmitYzqkvdmLurU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 May 2026 02:38:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/chatbot.a3ywndv7dq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a3ywndv7dq"},{"Name":"integrity","Value":"sha256-ahD1U426bCOpdUgrlU8w\u002Bclb8SfQyHlIvC819iRpBR0="},{"Name":"label","Value":"_content/DUANCHAMCONG/js/chatbot.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7408"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ahD1U426bCOpdUgrlU8w\u002Bclb8SfQyHlIvC819iRpBR0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 May 2026 12:47:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/chatbot.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ABJj\u002B5k\u002BZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ABJj\u002B5k\u002BZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 May 2026 12:38:00 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/chatbot.w84isj8vms.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w84isj8vms"},{"Name":"integrity","Value":"sha256-ABJj\u002B5k\u002BZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0="},{"Name":"label","Value":"_content/DUANCHAMCONG/js/chatbot.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ABJj\u002B5k\u002BZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 May 2026 12:38:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ahD1U426bCOpdUgrlU8w\u002Bclb8SfQyHlIvC819iRpBR0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7408"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ahD1U426bCOpdUgrlU8w\u002Bclb8SfQyHlIvC819iRpBR0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 May 2026 12:47:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/dashboard.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dashboard.js'))</AssetFile>

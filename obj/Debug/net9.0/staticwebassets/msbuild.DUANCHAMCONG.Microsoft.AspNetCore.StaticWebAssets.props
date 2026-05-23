@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w84isj8vms</Fingerprint>
-      <Integrity>ABJj+5k+ZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0=</Integrity>
+      <Fingerprint>a3ywndv7dq</Fingerprint>
+      <Integrity>ahD1U426bCOpdUgrlU8w+clb8SfQyHlIvC819iRpBR0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</OriginalItemSpec>
