@@ -111,34 +111,32 @@
         </div>
     </div>
 
-    @* Chatbot Widget (Tạm ẩn theo yêu cầu)
+    <link rel="stylesheet" href="~/css/chatbot.css" asp-append-version="true" />
     <div class="chatbot-container">
         <div id="chatbotToggle" class="chatbot-button">
             💬
         </div>
         <div id="chatbotWindow" class="chatbot-window">
             <div class="chatbot-header">
-                <h4>Hỗ trợ DUANCHAMCONG</h4>
+                <h4>Tra Cứu Địa Chỉ Cơ Sở</h4>
                 <div style="display: flex; gap: 10px; align-items: center;">
                     <span id="btnHistoryClear" title="Xóa lịch sử" style="cursor:pointer; font-size: 16px; opacity: 0.8;">🗑️</span>
                     <span id="chatbotClose" style="cursor:pointer; font-size: 20px;">&times;</span>
                 </div>
             </div>
-            <div id="chatbotMessages" class="chatbot-messages">
+            <div id="chatbotMessages" class="chatbot-messages" style="height: 250px;">
                 <!-- Messages go here -->
             </div>
-            <form id="chatbotForm" class="chatbot-input">
-                <input type="text" id="chatbotInput" placeholder="Nhập câu hỏi của bạn..." autocomplete="off">
-                <button type="submit">➤</button>
-            </form>
+            <div id="chatbotSuggestions" class="chatbot-suggestions" style="padding: 10px; border-top: 1px solid #eee; display: flex; flex-wrap: wrap; gap: 8px; background: #fdfdfd; max-height: 150px; overflow-y: auto;">
+                <!-- Buttons go here -->
+            </div>
         </div>
     </div>
-    *@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <!-- <script src="~/js/chatbot.js" asp-append-version="true"></script> -->
+    <script src="~/js/chatbot.js" asp-append-version="true"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const token = sessionStorage.getItem('token');

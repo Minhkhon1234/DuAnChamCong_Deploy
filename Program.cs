@@ -14,8 +14,10 @@ builder.Services.AddHostedService<AutoCheckoutService>();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
+builder.Services.AddMemoryCache();
 builder.Services.AddScoped<DUANCHAMCONG.Services.GeminiService>();
 builder.Services.AddScoped<DUANCHAMCONG.Services.LocalChatbotService>();
+builder.Services.AddSingleton<DUANCHAMCONG.Services.OpenStreetMapService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
