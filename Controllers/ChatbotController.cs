@@ -49,7 +49,7 @@ namespace DUANCHAMCONG.Controllers
         public class LocationQueryDto
         {
             public int SchoolId { get; set; }
-            public string SchoolName { get; set; }
+            public string SchoolName { get; set; } = string.Empty;
         }
 
         [HttpPost("location")]
@@ -72,8 +72,8 @@ namespace DUANCHAMCONG.Controllers
             }
             else
             {
-                double lat = double.Parse(school["Latitude"]);
-                double lon = double.Parse(school["Longitude"]);
+                double lat = double.Parse(school["Latitude"] ?? "0");
+                double lon = double.Parse(school["Longitude"] ?? "0");
 
                 string address = await _osmService.GetAddressFromCoordinatesAsync(lat, lon);
                 aiResponse = $"📍 **Địa chỉ của cơ sở {dto.SchoolName}:**\n{address}";

@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lpojmox4fd</Fingerprint>
-      <Integrity>J7ZhGQi6Bd3t30WHHwF3zS3reHlZlq41Ja31jsjIohA=</Integrity>
+      <Fingerprint>w84isj8vms</Fingerprint>
+      <Integrity>ABJj+5k+ZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</OriginalItemSpec>
@@ -1421,6 +1421,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\2b938977-c4b6-4940-a6e1-8bab8ee132af.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\48b907af-e091-440b-baa6-9af6b537b57e.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DUANCHAMCONG</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DUANCHAMCONG</BasePath>
+      <RelativePath>uploads/leaverequests/48b907af-e091-440b-baa6-9af6b537b57e.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9mubvhaxep</Fingerprint>
+      <Integrity>wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\48b907af-e091-440b-baa6-9af6b537b57e.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\59b97931-4f12-4d9b-b428-6f6a86c01ce7.jpg'))">
       <SourceType>Package</SourceType>

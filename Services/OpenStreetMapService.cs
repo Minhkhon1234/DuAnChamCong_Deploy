@@ -29,9 +29,9 @@ namespace DUANCHAMCONG.Services
             string cacheKey = $"address_{latitude}_{longitude}";
 
             // 1. Kiểm tra Cache
-            if (_cache.TryGetValue(cacheKey, out string cachedAddress))
+            if (_cache.TryGetValue(cacheKey, out string? cachedAddress))
             {
-                return cachedAddress;
+                return cachedAddress ?? string.Empty;
             }
 
             // 2. Chờ lấy Khóa (Lock) nếu Cache trống
@@ -41,7 +41,7 @@ namespace DUANCHAMCONG.Services
                 // Kiểm tra lại Cache sau khi có Khóa (phòng trường hợp Thread khác đã lấy xong)
                 if (_cache.TryGetValue(cacheKey, out cachedAddress))
                 {
-                    return cachedAddress;
+                    return cachedAddress ?? string.Empty;
                 }
 
                 // 3. Gọi API Nominatim OpenStreetMap
@@ -57,7 +57,7 @@ namespace DUANCHAMCONG.Services
                     
                     if (root.TryGetProperty("display_name", out JsonElement displayNameElement))
                     {
-                        var address = displayNameElement.GetString();
+                        var address = displayNameElement.GetString() ?? "Không có địa chỉ chi tiết.";
                         
                         // 4. Lưu vào Cache (Hạn sử dụng 24 giờ)
                         var cacheOptions = new MemoryCacheEntryOptions()
@@ -75,7 +75,7 @@ namespace DUANCHAMCONG.Services
                 await Task.Delay(2000);
                 return "Không thể lấy địa chỉ thực tế từ tọa độ này.";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return "Lỗi khi kết nối đến dịch vụ bản đồ.";
             }

@@ -606,7 +606,6 @@ E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\rns2h53sew-2nhi4imb78.gz
 E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\3wevq5x9db-61n19gt1b8.gz
 E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\k2oo5hv9bt-64zvnrfksq.gz
 E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\msa6was548-y1acct3syl.gz
-E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\ae2fv6953n-lpojmox4fd.gz
 E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\yfent9uoas-gs61mdpc2j.gz
 E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\dxl12fir8w-rp6v4llotq.gz
 E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\hyuvght33i-43mwupw109.gz
@@ -785,3 +784,4 @@ E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\a6olzhb5ug-s9ffvy5mg5.gz
 E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\blbo9rjdbz-z70cvcuhzy.gz
 E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\sumts6ocqr-omqm9x4h7r.gz
 E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\1knvlh2ybg-mab3n37i3c.gz
+E:\DUANCHAMCONG_TESTDEPLOY\obj\Debug\net9.0\compressed\ae2fv6953n-w84isj8vms.gz

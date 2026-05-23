@@ -135,14 +135,14 @@
     <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/chatbot.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-J7ZhGQi6Bd3t30WHHwF3zS3reHlZlq41Ja31jsjIohA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6348"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022J7ZhGQi6Bd3t30WHHwF3zS3reHlZlq41Ja31jsjIohA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 May 2026 04:58:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ABJj\u002B5k\u002BZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ABJj\u002B5k\u002BZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 May 2026 12:38:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/chatbot.lpojmox4fd.js">
+    <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/chatbot.w84isj8vms.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chatbot.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lpojmox4fd"},{"Name":"integrity","Value":"sha256-J7ZhGQi6Bd3t30WHHwF3zS3reHlZlq41Ja31jsjIohA="},{"Name":"label","Value":"_content/DUANCHAMCONG/js/chatbot.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6348"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022J7ZhGQi6Bd3t30WHHwF3zS3reHlZlq41Ja31jsjIohA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 May 2026 04:58:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w84isj8vms"},{"Name":"integrity","Value":"sha256-ABJj\u002B5k\u002BZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0="},{"Name":"label","Value":"_content/DUANCHAMCONG/js/chatbot.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7171"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ABJj\u002B5k\u002BZS7rDroqF7EVomKGCy7qQL/YndFeuQkQAr0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 May 2026 12:38:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/dashboard.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dashboard.js'))</AssetFile>
@@ -947,6 +947,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"235826"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 05 May 2026 07:57:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/uploads/leaverequests/48b907af-e091-440b-baa6-9af6b537b57e.9mubvhaxep.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\48b907af-e091-440b-baa6-9af6b537b57e.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9mubvhaxep"},{"Name":"integrity","Value":"sha256-wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8="},{"Name":"label","Value":"_content/DUANCHAMCONG/uploads/leaverequests/48b907af-e091-440b-baa6-9af6b537b57e.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"235826"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 May 2026 03:35:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/uploads/leaverequests/48b907af-e091-440b-baa6-9af6b537b57e.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\48b907af-e091-440b-baa6-9af6b537b57e.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"235826"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wbJmd68xZEtccFX/y5Pfx1NRuthNcInx6uDGa3WQJG8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 23 May 2026 03:35:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/uploads/leaverequests/59b97931-4f12-4d9b-b428-6f6a86c01ce7.9mubvhaxep.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\leaverequests\59b97931-4f12-4d9b-b428-6f6a86c01ce7.jpg'))</AssetFile>
