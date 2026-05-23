@@ -48,6 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
         msgDiv.className = `message ${sender} ${className}`;
         // Support simple markdown bold
         let htmlText = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        // Support simple markdown links
+        htmlText = htmlText.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: underline; font-weight: bold;">$1</a>');
         // Support new lines
         htmlText = htmlText.replace(/\n/g, '<br/>');
         msgDiv.innerHTML = htmlText;

@@ -76,7 +76,8 @@ namespace DUANCHAMCONG.Controllers
                 double lon = double.Parse(school["Longitude"] ?? "0");
 
                 string address = await _osmService.GetAddressFromCoordinatesAsync(lat, lon);
-                aiResponse = $"📍 **Địa chỉ của cơ sở {dto.SchoolName}:**\n{address}";
+                string mapLink = $"https://www.google.com/maps/search/?api=1&query={lat.ToString(System.Globalization.CultureInfo.InvariantCulture)},{lon.ToString(System.Globalization.CultureInfo.InvariantCulture)}";
+                aiResponse = $"📍 **Địa chỉ của cơ sở {dto.SchoolName}:**\n{address}\n\n🗺️ [Bấm vào đây để chỉ đường trên Google Maps]({mapLink})";
             }
 
             // Save to DB
