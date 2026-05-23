@@ -85,7 +85,7 @@ namespace DUANCHAMCONG.Controllers
                 UserId = userId,
                 Message = userMessage,
                 Response = aiResponse,
-                CreatedAt = DateTime.Now
+                CreatedAt = DateTime.UtcNow
             };
             _context.ChatHistories.Add(chat);
             await _context.SaveChangesAsync();
