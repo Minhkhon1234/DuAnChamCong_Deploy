@@ -46,7 +46,7 @@ namespace DUANCHAMCONG.Services
 
                 // 3. Gọi API Nominatim OpenStreetMap
                 // Rate limit: 1 request per second
-                string url = $"https://nominatim.openstreetmap.org/reverse?lat={latitude}&lon={longitude}&format=jsonv2&accept-language=vi";
+                string url = FormattableString.Invariant($"https://nominatim.openstreetmap.org/reverse?lat={latitude}&lon={longitude}&format=jsonv2&accept-language=vi");
                 var response = await _httpClient.GetAsync(url);
                 
                 if (response.IsSuccessStatusCode)

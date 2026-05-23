@@ -72,8 +72,8 @@ namespace DUANCHAMCONG.Controllers
             }
             else
             {
-                double lat = double.Parse(school["Latitude"] ?? "0");
-                double lon = double.Parse(school["Longitude"] ?? "0");
+                double lat = double.Parse(school["Latitude"] ?? "0", System.Globalization.CultureInfo.InvariantCulture);
+                double lon = double.Parse(school["Longitude"] ?? "0", System.Globalization.CultureInfo.InvariantCulture);
 
                 string address = await _osmService.GetAddressFromCoordinatesAsync(lat, lon);
                 string mapLink = $"https://www.google.com/maps/search/?api=1&query={lat.ToString(System.Globalization.CultureInfo.InvariantCulture)},{lon.ToString(System.Globalization.CultureInfo.InvariantCulture)}";
