@@ -322,8 +322,11 @@ namespace DUANCHAMCONG.Controllers
 
             var todayVN = VietnamNow.Date;
             var (startOfDayUtc, endOfDayUtc) = GetVietnamDayRange(todayVN);
-            var firstDayOfMonth = new DateTime(todayVN.Year, todayVN.Month, 1, 0, 0, 0, DateTimeKind.Utc).AddHours(-7);
-            var lastDayOfMonth = firstDayOfMonth.AddMonths(1).AddTicks(-1);
+            var firstDayOfMonthVn = new DateTime(todayVN.Year, todayVN.Month, 1, 0, 0, 0, DateTimeKind.Utc);
+            var lastDayOfMonthVn = firstDayOfMonthVn.AddMonths(1);
+            
+            var firstDayOfMonth = firstDayOfMonthVn.AddHours(-7);
+            var lastDayOfMonth = lastDayOfMonthVn.AddHours(-7).AddTicks(-1);
 
             // Chỉ lấy dữ liệu trong tháng hiện tại
             var currentMonthAttendances = _context.Attendances
