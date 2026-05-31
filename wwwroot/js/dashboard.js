@@ -81,10 +81,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update Button States
     function updateButtonStates() {
         const selectedSchoolName = schoolSelect.options[schoolSelect.selectedIndex]?.text;
+        
+        const checkInCard = btnCheckIn.closest('.action-card');
+        const checkOutCard = btnCheckOut.closest('.action-card');
 
         if (!schoolSelect.value) {
             btnCheckIn.disabled = true;
             btnCheckOut.disabled = true;
+            if (checkInCard) checkInCard.style.display = 'block';
+            if (checkOutCard) checkOutCard.style.display = 'block';
             return;
         }
 
@@ -96,14 +101,20 @@ document.addEventListener('DOMContentLoaded', () => {
             if (openRecord.schoolName === selectedSchoolName) {
                 btnCheckIn.disabled = true;
                 btnCheckOut.disabled = false;
+                if (checkInCard) checkInCard.style.display = 'none';
+                if (checkOutCard) checkOutCard.style.display = 'block';
             } else {
                 btnCheckIn.disabled = true;
                 btnCheckOut.disabled = true;
+                if (checkInCard) checkInCard.style.display = 'none';
+                if (checkOutCard) checkOutCard.style.display = 'block';
             }
         } else {
             document.querySelectorAll('input[name="shift"]').forEach(cb => cb.disabled = false);
             btnCheckIn.disabled = false;
             btnCheckOut.disabled = true;
+            if (checkInCard) checkInCard.style.display = 'block';
+            if (checkOutCard) checkOutCard.style.display = 'none';
         }
     }
 
