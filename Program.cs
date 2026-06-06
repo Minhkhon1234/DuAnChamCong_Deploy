@@ -6,6 +6,9 @@ using DUANCHAMCONG.Services; // Thêm namespace
 using System.Text;
 using Microsoft.OpenApi.Models;
 
+// Vô hiệu hóa tính năng theo dõi file cấu hình (appsettings.json) để tránh lỗi inotify limit trên Render/Linux
+Environment.SetEnvironmentVariable("DOTNET_HOSTBUILDER__RELOADCONFIGONCHANGE", "false");
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
