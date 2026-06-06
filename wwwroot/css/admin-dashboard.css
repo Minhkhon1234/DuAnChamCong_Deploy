@@ -326,3 +326,54 @@ body {
     font-weight: 500;
     border: 1px solid #e0e7ff;
 }
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+    .admin-header {
+        padding: 10px 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .header-brand h2 {
+        font-size: 18px;
+    }
+    
+    .admin-content {
+        padding: 10px;
+    }
+    
+    .stat-grid {
+        grid-template-columns: 1fr 1fr; /* Hoặc 1fr nếu màn hình quá nhỏ */
+        gap: 10px;
+    }
+    
+    @media (max-width: 480px) {
+        .stat-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .filter-controls {
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .filter-controls .form-select, .filter-controls .btn-filter {
+        width: 100%;
+    }
+    
+    /* Table Responsive */
+    .admin-table th, .admin-table td {
+        padding: 10px 8px;
+        font-size: 13px;
+        white-space: nowrap; /* Buộc text nằm ngang để lướt sang thay vì bị chèn dập */
+    }
+}
