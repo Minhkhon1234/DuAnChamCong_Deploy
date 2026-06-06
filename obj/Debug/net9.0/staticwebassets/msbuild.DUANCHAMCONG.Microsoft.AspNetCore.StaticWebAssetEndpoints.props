@@ -148,13 +148,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dashboard.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ElFTp4qeiGKo56yI1ikBIauJ4MZ9aEIlSl\u002Bs7wMGUR0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10879"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ElFTp4qeiGKo56yI1ikBIauJ4MZ9aEIlSl\u002Bs7wMGUR0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 May 2026 00:59:49 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10879"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ElFTp4qeiGKo56yI1ikBIauJ4MZ9aEIlSl\u002Bs7wMGUR0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 31 May 2026 02:58:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/dashboard.mab3n37i3c.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\dashboard.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mab3n37i3c"},{"Name":"integrity","Value":"sha256-ElFTp4qeiGKo56yI1ikBIauJ4MZ9aEIlSl\u002Bs7wMGUR0="},{"Name":"label","Value":"_content/DUANCHAMCONG/js/dashboard.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10879"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ElFTp4qeiGKo56yI1ikBIauJ4MZ9aEIlSl\u002Bs7wMGUR0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 May 2026 00:59:49 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10879"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ElFTp4qeiGKo56yI1ikBIauJ4MZ9aEIlSl\u002Bs7wMGUR0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 31 May 2026 02:58:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/leave-history.gs61mdpc2j.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\leave-history.js'))</AssetFile>
