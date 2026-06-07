@@ -59,6 +59,10 @@ namespace DUANCHAMCONG.Controllers
             var shifts = selectedShifts.Split(", ");
             foreach (var shift in shifts)
             {
+                // Tạm chưa tính giờ tăng ca vào tổng số giờ làm (như cấu trúc lương các ca khác)
+                if (shift.Contains("18:00") || shift.Contains("22:00") || shift.Contains("Tăng ca")) 
+                    continue;
+
                 try
                 {
                     var parts = shift.Split("-");
@@ -171,8 +175,11 @@ namespace DUANCHAMCONG.Controllers
             }
             else 
             {
-                // Tính trạng thái Đúng giờ/Đi muộn dựa trên ca làm việc đầu tiên
-                if (dto.SelectedShifts != null && dto.SelectedShifts.Any())
+                if (dto.SelectedShifts != null && dto.SelectedShifts.Contains("18:00 - 22:00"))
+                {
+                    statusText = "Overtime";
+                }
+                else if (dto.SelectedShifts != null && dto.SelectedShifts.Any())
                 {
                     try 
                     {
@@ -274,7 +281,7 @@ namespace DUANCHAMCONG.Controllers
                         .OrderByDescending(t => t)
                         .First();
 
-                    if (VietnamNow.TimeOfDay < lastShiftEndTime)
+                    if (attendance.Status != "Overtime" && VietnamNow.TimeOfDay < lastShiftEndTime)
                     {
                         if (!attendance.Status.Contains("EarlyLeave"))
                         {

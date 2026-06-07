@@ -28,7 +28,6 @@ namespace DUANCHAMCONG.Services
         {
             // STATIC FALLBACK FOR KNOWN SCHOOLS
             // Trả về ngay lập tức địa chỉ tĩnh cho các cơ sở đã được cấu hình sẵn trong appsettings.json
-            // Cách này đảm bảo 100% hoạt động trên mọi môi trường Deploy (không sợ bị chặn API hay lỗi mạng)
             
             if (Math.Abs(latitude - 21.028228) < 0.0001 && Math.Abs(longitude - 105.803425) < 0.0001) 
                 return Task.FromResult("Đại học Giao Thông Vận Tải, Láng Thượng, Đống Đa, Hà Nội, Việt Nam");
