@@ -125,8 +125,8 @@ namespace DUANCHAMCONG.Controllers
                     return BadRequest("THIẾT BỊ NÀY ĐÃ ĐƯỢC SỬ DỤNG CHO TÀI KHOẢN KHÁC TRONG HÔM NAY. Không được phép chấm công hộ.");
                 }
             }
-
-            // 3. Chống Fake GPS (Teleportation check)
+    
+            // 3.Teleportation check
             var lastRecordToday = _context.Attendances
                 .Where(x => x.UserId == userId && x.CheckInTime >= startOfDayUtc && x.CheckInTime < endOfDayUtc && !x.Status.Contains("InvalidLocation"))
                 .OrderByDescending(x => x.CheckOutTime ?? x.CheckInTime)

@@ -44,9 +44,8 @@ namespace DUANCHAMCONG.Services
                     return cachedAddress ?? string.Empty;
                 }
 
-                // 3. Gọi API Nominatim OpenStreetMap
-                // Rate limit: 1 request per second
-                string url = FormattableString.Invariant($"https://nominatim.openstreetmap.org/reverse?lat={latitude}&lon={longitude}&format=jsonv2&accept-language=vi");
+                // 3. Gọi API BigDataCloud (Không yêu cầu API Key, Không bị chặn IP Datacenter)
+                string url = FormattableString.Invariant($"https://api.bigdatacloud.net/data/reverse-geocode-client?latitude={latitude}&longitude={longitude}&localityLanguage=vi");
                 var response = await _httpClient.GetAsync(url);
                 
                 if (response.IsSuccessStatusCode)
@@ -55,24 +54,31 @@ namespace DUANCHAMCONG.Services
                     using var jsonDoc = JsonDocument.Parse(jsonString);
                     var root = jsonDoc.RootElement;
                     
-                    if (root.TryGetProperty("display_name", out JsonElement displayNameElement))
-                    {
-                        var address = displayNameElement.GetString() ?? "Không có địa chỉ chi tiết.";
+                    var addressParts = new System.Collections.Generic.List<string>();
+
+                    if (root.TryGetProperty("locality", out JsonElement locality) && locality.ValueKind == JsonValueKind.String && !string.IsNullOrEmpty(locality.GetString()))
+                        addressParts.Add(locality.GetString()!);
                         
-                        // 4. Lưu vào Cache (Hạn sử dụng 24 giờ)
-                        var cacheOptions = new MemoryCacheEntryOptions()
-                            .SetAbsoluteExpiration(TimeSpan.FromHours(24));
-                        _cache.Set(cacheKey, address, cacheOptions);
+                    if (root.TryGetProperty("city", out JsonElement city) && city.ValueKind == JsonValueKind.String && !string.IsNullOrEmpty(city.GetString()))
+                        addressParts.Add(city.GetString()!);
+                        
+                    if (root.TryGetProperty("principalSubdivision", out JsonElement subdivision) && subdivision.ValueKind == JsonValueKind.String && !string.IsNullOrEmpty(subdivision.GetString()) && !addressParts.Contains(subdivision.GetString()!))
+                        addressParts.Add(subdivision.GetString()!);
+                        
+                    if (root.TryGetProperty("countryName", out JsonElement country) && country.ValueKind == JsonValueKind.String && !string.IsNullOrEmpty(country.GetString()))
+                        addressParts.Add(country.GetString()!);
+                        
+                    string address = addressParts.Count > 0 ? string.Join(", ", addressParts) : "Không có địa chỉ chi tiết.";
+                        
+                    // 4. Lưu vào Cache (Hạn sử dụng 24 giờ)
+                    var cacheOptions = new MemoryCacheEntryOptions()
+                        .SetAbsoluteExpiration(TimeSpan.FromHours(24));
+                    _cache.Set(cacheKey, address, cacheOptions);
 
-                        // Đảm bảo delay an toàn chống ban IP theo policy của Nominatim
-                        await Task.Delay(1500); 
-
-                        return address;
-                    }
+                    return address;
                 }
                 
-                // Nếu API lỗi, delay một chút để tránh spam lỗi
-                await Task.Delay(2000);
+                // Nếu API lỗi, trả về thông báo lỗi
                 return "Không thể lấy địa chỉ thực tế từ tọa độ này.";
             }
             catch (Exception)
