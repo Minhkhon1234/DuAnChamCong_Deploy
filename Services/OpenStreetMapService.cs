@@ -24,7 +24,44 @@ namespace DUANCHAMCONG.Services
             _config = config;
         }
 
-        public async Task<string> GetAddressFromCoordinatesAsync(double latitude, double longitude)
+        public Task<string> GetAddressFromCoordinatesAsync(double latitude, double longitude)
+        {
+            // STATIC FALLBACK FOR KNOWN SCHOOLS
+            // Trả về ngay lập tức địa chỉ tĩnh cho các cơ sở đã được cấu hình sẵn trong appsettings.json
+            // Cách này đảm bảo 100% hoạt động trên mọi môi trường Deploy (không sợ bị chặn API hay lỗi mạng)
+            
+            if (Math.Abs(latitude - 21.028228) < 0.0001 && Math.Abs(longitude - 105.803425) < 0.0001) 
+                return Task.FromResult("Đại học Giao Thông Vận Tải, Láng Thượng, Đống Đa, Hà Nội, Việt Nam");
+                
+            if (Math.Abs(latitude - 21.024269) < 0.0001 && Math.Abs(longitude - 105.772156) < 0.0001) 
+                return Task.FromResult("HSRL, Nam Từ Liêm, Hà Nội, Việt Nam");
+                
+            if (Math.Abs(latitude - 21.050583) < 0.0001 && Math.Abs(longitude - 105.792873) < 0.0001) 
+                return Task.FromResult("Trường Everest, KĐT Nghĩa Đô, Cầu Giấy, Hà Nội, Việt Nam");
+                
+            if (Math.Abs(latitude - 21.041863) < 0.0001 && Math.Abs(longitude - 105.78762) < 0.0001) 
+                return Task.FromResult("Trường Nguyễn Bỉnh Khiêm, Cầu Giấy, Hà Nội, Việt Nam");
+                
+            if (Math.Abs(latitude - 21.028901) < 0.0001 && Math.Abs(longitude - 105.821685) < 0.0001) 
+                return Task.FromResult("Cơ sở Giảng Võ 1, Ba Đình, Hà Nội, Việt Nam");
+                
+            if (Math.Abs(latitude - 21.028333) < 0.0001 && Math.Abs(longitude - 105.821749) < 0.0001) 
+                return Task.FromResult("Cơ sở Giảng Võ 2, Ba Đình, Hà Nội, Việt Nam");
+                
+            if (Math.Abs(latitude - 20.978744) < 0.0001 && Math.Abs(longitude - 105.793484) < 0.0001) 
+                return Task.FromResult("Trường Ban Mai, KĐT Văn Quán, Hà Đông, Hà Nội, Việt Nam");
+                
+            if (Math.Abs(latitude - 21.030942) < 0.0001 && Math.Abs(longitude - 105.767573) < 0.0001) 
+                return Task.FromResult("Trường Đoàn Thị Điểm CS1, Nam Từ Liêm, Hà Nội, Việt Nam");
+                
+            if (Math.Abs(latitude - 21.071436) < 0.0001 && Math.Abs(longitude - 105.778073) < 0.0001) 
+                return Task.FromResult("Trường Đoàn Thị Điểm CS2, Bắc Từ Liêm, Hà Nội, Việt Nam");
+
+            // Nếu không khớp với tọa độ hardcode, fallback về API BigDataCloud
+            return FetchAddressFromApiAsync(latitude, longitude);
+        }
+
+        private async Task<string> FetchAddressFromApiAsync(double latitude, double longitude)
         {
             string cacheKey = $"address_{latitude}_{longitude}";
 
@@ -38,7 +75,7 @@ namespace DUANCHAMCONG.Services
             await _semaphore.WaitAsync();
             try
             {
-                // Kiểm tra lại Cache sau khi có Khóa (phòng trường hợp Thread khác đã lấy xong)
+                // Kiểm tra lại Cache sau khi có Khóa
                 if (_cache.TryGetValue(cacheKey, out cachedAddress))
                 {
                     return cachedAddress ?? string.Empty;
