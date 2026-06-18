@@ -133,11 +133,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 const lon = position.coords.longitude;
                 const accuracy = position.coords.accuracy;
 
+                // --- BẢO MẬT CHỐNG FAKE GPS TRÊN TRÌNH DUYỆT (WEB) ---
                 
-                // 1. Chặn Chrome DevTools / Trình giả lập web (Thường trả về sai số chính xác là 150 hoặc null cho các tham số môi trường)
-                if (accuracy === 150 && position.coords.altitude === null && position.coords.speed === null) {
+                // 1. Chặn Chrome DevTools / Trình giả lập web (Bắt cụ thể các chữ ký sai số thường gặp của Tool: 150 hoặc 100)
+                if ((accuracy === 150 || accuracy === 100) && position.coords.altitude === null && position.coords.speed === null) {
                     showLoading(false);
-                    showToast("⚠️ Phát hiện giả mạo GPS từ tool!", "error");
+                    showToast("⚠️ Phát hiện giả mạo GPS từ tool (DevTools/Extensions)!", "error");
                     return;
                 }
 
