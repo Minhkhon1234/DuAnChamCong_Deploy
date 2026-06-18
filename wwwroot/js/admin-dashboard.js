@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (adminNameDisplay) adminNameDisplay.textContent = `Xin chào, ${fullName}`;
     }
 
-    // Decode JWT to get Role (Optional since auth.js handled it, but good to show role)
+    // Giải mã JWT để lấy Role
     function parseJwt(token) {
         try {
             const base64Url = token.split('.')[1];

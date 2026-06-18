@@ -118,7 +118,7 @@ namespace DUANCHAMCONG.Controllers
             {
                 return BadRequest($"Tín hiệu GPS quá yếu (Sai số: {Math.Round(dto.Accuracy.Value)}m). Vui lòng ra khu vực thoáng hoặc bật định vị độ chính xác cao.");
             }
-
+            // 2. Kiểm tra thiết bị đã từng được dùng chưa
             if (!string.IsNullOrEmpty(dto.DeviceId))
             {
                 var otherUserUsedThisDevice = _context.Attendances
@@ -264,10 +264,10 @@ namespace DUANCHAMCONG.Controllers
 
             attendance.CheckOutTime = DateTime.UtcNow;
 
-            // 👉 Tính giờ làm (Theo thời gian ca đã đăng ký)
+            // Tính giờ làm (Theo thời gian ca đã đăng ký)
             var totalHours = CalculateShiftHours(attendance.SelectedShifts);
 
-            // 👉 Tính giờ kết thúc của ca cuối cùng đã chọn
+            // Tính giờ kết thúc của ca cuối cùng đã chọn
             if (!string.IsNullOrEmpty(attendance.SelectedShifts))
             {
                 try 

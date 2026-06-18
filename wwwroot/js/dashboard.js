@@ -133,6 +133,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 const lon = position.coords.longitude;
                 const accuracy = position.coords.accuracy;
 
+                
+                // 1. Chặn Chrome DevTools / Trình giả lập web (Thường trả về sai số chính xác là 150 hoặc null cho các tham số môi trường)
+                if (accuracy === 150 && position.coords.altitude === null && position.coords.speed === null) {
+                    showLoading(false);
+                    showToast("⚠️ Phát hiện giả mạo GPS từ tool!", "error");
+                    return;
+                }
+
                 try {
                     const response = await fetch('/api/attendance/checkin', {
                         method: 'POST',

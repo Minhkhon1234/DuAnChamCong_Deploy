@@ -108,7 +108,7 @@ namespace DUANCHAMCONG.Controllers
             return Ok(requests);
         }
 
-        // ================= GET ALL REQUESTS (ADMIN/LEADER) =================
+        // ================= GET ALL REQUESTS (LEADER) =================
         [HttpGet("admin")]
         [Authorize(Roles = "Leader")]
         public async Task<IActionResult> GetAllRequests()
@@ -132,7 +132,7 @@ namespace DUANCHAMCONG.Controllers
             return Ok(requests);
         }
 
-        // ================= HANDLE REQUEST (ADMIN/LEADER) =================
+        // ================= HANDLE REQUEST (LEADER) =================
         [HttpPost("handle/{id}")]
         [Authorize(Roles = "Leader")]
         public async Task<IActionResult> HandleRequest(int id, [FromBody] string status)
