@@ -264,8 +264,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rp6v4llotq</Fingerprint>
-      <Integrity>QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0=</Integrity>
+      <Fingerprint>1ws7478din</Fingerprint>
+      <Integrity>AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\monthly-report.js'))</OriginalItemSpec>

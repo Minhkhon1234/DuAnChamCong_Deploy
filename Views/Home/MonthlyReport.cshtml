@@ -4,6 +4,7 @@
 
 @section Scripts {
     <link rel="stylesheet" href="~/css/admin-dashboard.css" asp-append-version="true" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="~/js/monthly-report.js" asp-append-version="true"></script>
 }
 
@@ -42,8 +43,13 @@
                         <tr>
                             <th>Nhân viên</th>
                             <th>Email</th>
-                            <th style="text-align: center;">Số ngày công hợp lệ</th>
+                            <th style="text-align: center;">Ngày công hợp lệ</th>
                             <th style="text-align: center;">Tổng giờ làm</th>
+                            <th style="text-align: center; color: #28a745;">Đúng giờ</th>
+                            <th style="text-align: center; color: #ffc107;">Đi muộn</th>
+                            <th style="text-align: center; color: #fd7e14;">Về sớm</th>
+                            <th style="text-align: center; color: #dc3545;">Sai vị trí</th>
+                            <th style="text-align: center; color: #6c757d;">Quên Check-out</th>
                         </tr>
                     </thead>
                     <tbody id="monthlyTableBody">

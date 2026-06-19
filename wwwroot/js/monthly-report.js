@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderMonthlyTable(data) {
         monthlyTableBody.innerHTML = '';
         if (!data || data.length === 0) {
-            monthlyTableBody.innerHTML = '<tr><td colspan="4" style="text-align: center;">Chưa có dữ liệu</td></tr>';
+            monthlyTableBody.innerHTML = '<tr><td colspan="9" style="text-align: center;">Chưa có dữ liệu</td></tr>';
             return;
         }
 
@@ -111,12 +111,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 <td>${item.email}</td>
                 <td style="text-align: center;">
                     <span style="background: #e9ecef; padding: 4px 12px; border-radius: 20px; font-weight: bold;">
-                        ${item.totalDays} ngày
+                        ${item.totalDays}
                     </span>
                 </td>
                 <td style="text-align: center; color: #28a745; font-weight: bold;">
-                    ${item.totalHours.toFixed(2)} giờ
+                    ${item.totalHours.toFixed(2)}
                 </td>
+                <td style="text-align: center; color: #28a745; font-weight: bold;">${item.totalOnTime}</td>
+                <td style="text-align: center; color: #ffc107; font-weight: bold;">${item.totalLate}</td>
+                <td style="text-align: center; color: #fd7e14; font-weight: bold;">${item.totalEarlyLeave}</td>
+                <td style="text-align: center; color: #dc3545; font-weight: bold;">${item.totalInvalid}</td>
+                <td style="text-align: center; color: #6c757d; font-weight: bold;">${item.totalForgetCheckOut}</td>
             `;
             monthlyTableBody.appendChild(tr);
         });
@@ -200,7 +205,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnExportExcel = document.getElementById('btnExportExcel');
     if (btnExportExcel) {
         btnExportExcel.addEventListener('click', () => {
-            showToast("Tính năng Xuất Excel đang được phát triển!", "info");
+            const tables = document.querySelectorAll('.admin-table');
+            if (tables.length === 0) {
+                showToast("Không có dữ liệu để xuất!", "error");
+                return;
+            }
+
+            try {
+                // Tạo một workbook mới
+                var wb = XLSX.utils.book_new();
+
+                // Bảng 1: Báo cáo tính lương tổng hợp
+                if (tables[0]) {
+                    var ws1 = XLSX.utils.table_to_sheet(tables[0]);
+                    XLSX.utils.book_append_sheet(wb, ws1, "TongHopLuong");
+                }
+
+                // Bảng 2: Bảng công chi tiết theo ngày
+                if (tables.length > 1 && tables[1]) {
+                    var ws2 = XLSX.utils.table_to_sheet(tables[1]);
+                    XLSX.utils.book_append_sheet(wb, ws2, "ChiTietNgay");
+                }
+                
+                // Đặt tên file theo tháng/năm
+                const month = monthSelect.value;
+                const year = yearSelect.value;
+                const fileName = `BaoCaoThang_${month}_${year}.xlsx`;
+                
+                // Tải xuống
+                XLSX.writeFile(wb, fileName);
+                showToast("Xuất file Excel thành công!", "success");
+            } catch (error) {
+                console.error("Lỗi xuất Excel:", error);
+                showToast("Đã xảy ra lỗi khi xuất file Excel", "error");
+            }
         });
     }
 

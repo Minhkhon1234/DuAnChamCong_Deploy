@@ -126,10 +126,7 @@ namespace DUANCHAMCONG.Controllers
             var endMonth = TimeHelper.VietnamToUtc(vnEnd);
             var attendances = _context.Attendances
                 .AsNoTracking()
-                .Where(a => a.CheckInTime >= startMonth && 
-                            a.CheckInTime < endMonth && 
-                            (a.Status == null || !a.Status.Contains(AttendanceStatus.InvalidLocation)) &&
-                            a.CheckOutTime != null)
+                .Where(a => a.CheckInTime >= startMonth && a.CheckInTime < endMonth)
                 .ToList();
 
             var allUsers = _context.Users.AsNoTracking().Where(u => u.Role == "User").ToList();
@@ -137,19 +134,32 @@ namespace DUANCHAMCONG.Controllers
             var result = allUsers.Select(u => {
                 var userAtts = attendances.Where(a => a.UserId == u.Id).ToList();
                 
-                var totalHours = userAtts.Sum(a => CalculateShiftHours(a.SelectedShifts));
-                
-                // Get distinct days they checked in
-                var totalDays = userAtts.Select(a => TimeHelper.ToVietnamTime(a.CheckInTime).Date).Distinct().Count();
+                // Các bản ghi hợp lệ để tính lương (Không sai vị trí và đã check out)
+                var validAtts = userAtts.Where(a => (a.Status == null || !a.Status.Contains("InvalidLocation")) && a.CheckOutTime != null).ToList();
+
+                var totalHours = validAtts.Sum(a => CalculateShiftHours(a.SelectedShifts));
+                var totalDays = validAtts.Select(a => TimeHelper.ToVietnamTime(a.CheckInTime).Date).Distinct().Count();
+
+                // Đếm các trạng thái
+                var totalLate = userAtts.Count(a => a.Status != null && a.Status.Contains("Late"));
+                var totalOnTime = userAtts.Count(a => a.Status != null && a.Status.Contains("OnTime"));
+                var totalEarlyLeave = userAtts.Count(a => a.Status != null && a.Status.Contains("EarlyLeave"));
+                var totalInvalid = userAtts.Count(a => a.Status != null && a.Status.Contains("InvalidLocation"));
+                var totalForgetCheckOut = userAtts.Count(a => a.Status != null && a.Status.Contains("ForgetCheckOut"));
 
                 return new {
                     UserId = u.Id,
                     FullName = u.FullName,
                     Email = u.Email,
                     TotalDays = totalDays,
-                    TotalHours = Math.Round(totalHours, 2)
+                    TotalHours = Math.Round(totalHours, 2),
+                    TotalLate = totalLate,
+                    TotalOnTime = totalOnTime,
+                    TotalEarlyLeave = totalEarlyLeave,
+                    TotalInvalid = totalInvalid,
+                    TotalForgetCheckOut = totalForgetCheckOut
                 };
-            }).Where(x => x.TotalDays > 0).OrderByDescending(x => x.TotalHours).ToList();
+            }).Where(x => x.TotalDays > 0 || x.TotalInvalid > 0 || x.TotalForgetCheckOut > 0).OrderByDescending(x => x.TotalHours).ToList();
 
             return Ok(result);
         }

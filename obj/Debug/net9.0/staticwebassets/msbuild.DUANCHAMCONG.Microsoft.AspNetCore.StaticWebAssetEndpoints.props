@@ -168,17 +168,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YG3fk1dbtWCqLxJVCiLwrmLw9MnrOeCWEA0UYppVgNo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4655"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022YG3fk1dbtWCqLxJVCiLwrmLw9MnrOeCWEA0UYppVgNo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 06 May 2026 13:38:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/monthly-report.1ws7478din.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\monthly-report.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ws7478din"},{"Name":"integrity","Value":"sha256-AU6WtSKE/TYz2\u002BA\u002BqMd2CbXelEDOmZzko578CrpQ4m4="},{"Name":"label","Value":"_content/DUANCHAMCONG/js/monthly-report.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9467"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AU6WtSKE/TYz2\u002BA\u002BqMd2CbXelEDOmZzko578CrpQ4m4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 19 Jun 2026 00:07:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/monthly-report.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\monthly-report.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 12 May 2026 06:39:08 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/monthly-report.rp6v4llotq.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\monthly-report.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rp6v4llotq"},{"Name":"integrity","Value":"sha256-QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0="},{"Name":"label","Value":"_content/DUANCHAMCONG/js/monthly-report.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 12 May 2026 06:39:08 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AU6WtSKE/TYz2\u002BA\u002BqMd2CbXelEDOmZzko578CrpQ4m4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9467"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AU6WtSKE/TYz2\u002BA\u002BqMd2CbXelEDOmZzko578CrpQ4m4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 19 Jun 2026 00:07:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DUANCHAMCONG/js/settings.43mwupw109.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\settings.js'))</AssetFile>

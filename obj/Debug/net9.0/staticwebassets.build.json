@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sml27zC1BM+T1U97R0zjRyL3U4p9NiN1f5o/HkRNlB8=",
+  "Hash": "bFxBdjkW6VnR7VWNMQRJr0EO4v9NJnHWidE9QRdu53c=",
   "Source": "DUANCHAMCONG",
   "BasePath": "_content/DUANCHAMCONG",
   "Mode": "Default",
@@ -647,12 +647,12 @@
       "OriginalItemSpec": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-rp6v4llotq.gz",
+      "Identity": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-1ws7478din.gz",
       "SourceId": "DUANCHAMCONG",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DUANCHAMCONG",
-      "RelativePath": "js/monthly-report#[.{fingerprint=rp6v4llotq}]?.js.gz",
+      "RelativePath": "js/monthly-report#[.{fingerprint=1ws7478din}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -661,8 +661,8 @@
       "RelatedAsset": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\monthly-report.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zeswj8vmkz",
-      "Integrity": "JSVQfj8xPWKZsnjvzuNM924qMYG7HeQo2tN3q8HiERk=",
+      "Fingerprint": "k63q20gyis",
+      "Integrity": "ZKsibUBSOtvy8ecZvNruiOl2H0O+NlhcHjIzObb5iNo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\monthly-report.js"
@@ -1984,8 +1984,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rp6v4llotq",
-      "Integrity": "QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0=",
+      "Fingerprint": "1ws7478din",
+      "Integrity": "AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\monthly-report.js"
@@ -7954,13 +7954,13 @@
       ]
     },
     {
-      "Route": "js/monthly-report.js",
-      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-rp6v4llotq.gz",
+      "Route": "js/monthly-report.1ws7478din.js",
+      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-1ws7478din.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000472143532"
+          "Quality": "0.000393545848"
         }
       ],
       "ResponseHeaders": [
@@ -7970,19 +7970,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2117"
+          "Value": "2540"
         },
         {
           "Name": "ETag",
-          "Value": "\"JSVQfj8xPWKZsnjvzuNM924qMYG7HeQo2tN3q8HiERk=\""
+          "Value": "\"ZKsibUBSOtvy8ecZvNruiOl2H0O+NlhcHjIzObb5iNo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 12 May 2026 06:39:08 GMT"
+          "Value": "Fri, 19 Jun 2026 00:07:29 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -7998,18 +7998,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0=\""
+          "Value": "W/\"AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "1ws7478din"
+        },
+        {
+          "Name": "label",
+          "Value": "js/monthly-report.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0="
+          "Value": "sha256-AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4="
         }
       ]
     },
     {
-      "Route": "js/monthly-report.js",
+      "Route": "js/monthly-report.1ws7478din.js",
       "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\monthly-report.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8019,7 +8027,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7550"
+          "Value": "9467"
         },
         {
           "Name": "Content-Type",
@@ -8027,121 +8035,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0=\""
+          "Value": "\"AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 12 May 2026 06:39:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0="
-        }
-      ]
-    },
-    {
-      "Route": "js/monthly-report.js.gz",
-      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-rp6v4llotq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2117"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JSVQfj8xPWKZsnjvzuNM924qMYG7HeQo2tN3q8HiERk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 12 May 2026 06:39:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JSVQfj8xPWKZsnjvzuNM924qMYG7HeQo2tN3q8HiERk="
-        }
-      ]
-    },
-    {
-      "Route": "js/monthly-report.rp6v4llotq.js",
-      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-rp6v4llotq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000472143532"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2117"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JSVQfj8xPWKZsnjvzuNM924qMYG7HeQo2tN3q8HiERk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 12 May 2026 06:39:08 GMT"
+          "Value": "Fri, 19 Jun 2026 00:07:29 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rp6v4llotq"
+          "Value": "1ws7478din"
         },
         {
           "Name": "label",
@@ -8149,13 +8057,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0="
+          "Value": "sha256-AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4="
         }
       ]
     },
     {
-      "Route": "js/monthly-report.rp6v4llotq.js",
-      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\monthly-report.js",
+      "Route": "js/monthly-report.1ws7478din.js.gz",
+      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-1ws7478din.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8164,7 +8072,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7550"
+          "Value": "2540"
         },
         {
           "Name": "Content-Type",
@@ -8172,56 +8080,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0=\""
+          "Value": "\"ZKsibUBSOtvy8ecZvNruiOl2H0O+NlhcHjIzObb5iNo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 12 May 2026 06:39:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rp6v4llotq"
-        },
-        {
-          "Name": "label",
-          "Value": "js/monthly-report.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QYQMkxbf9JmzdJXgxlUBjzHqEpJtzzqZP8Dco9W/tB0="
-        }
-      ]
-    },
-    {
-      "Route": "js/monthly-report.rp6v4llotq.js.gz",
-      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-rp6v4llotq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2117"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JSVQfj8xPWKZsnjvzuNM924qMYG7HeQo2tN3q8HiERk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 12 May 2026 06:39:08 GMT"
+          "Value": "Fri, 19 Jun 2026 00:07:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8239,7 +8102,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rp6v4llotq"
+          "Value": "1ws7478din"
         },
         {
           "Name": "label",
@@ -8247,7 +8110,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JSVQfj8xPWKZsnjvzuNM924qMYG7HeQo2tN3q8HiERk="
+          "Value": "sha256-ZKsibUBSOtvy8ecZvNruiOl2H0O+NlhcHjIzObb5iNo="
+        }
+      ]
+    },
+    {
+      "Route": "js/monthly-report.js",
+      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-1ws7478din.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000393545848"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZKsibUBSOtvy8ecZvNruiOl2H0O+NlhcHjIzObb5iNo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Jun 2026 00:07:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4="
+        }
+      ]
+    },
+    {
+      "Route": "js/monthly-report.js",
+      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\wwwroot\\js\\monthly-report.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Jun 2026 00:07:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AU6WtSKE/TYz2+A+qMd2CbXelEDOmZzko578CrpQ4m4="
+        }
+      ]
+    },
+    {
+      "Route": "js/monthly-report.js.gz",
+      "AssetFile": "E:\\DUANCHAMCONG_TESTDEPLOY\\obj\\Debug\\net9.0\\compressed\\dxl12fir8w-1ws7478din.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZKsibUBSOtvy8ecZvNruiOl2H0O+NlhcHjIzObb5iNo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 19 Jun 2026 00:07:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZKsibUBSOtvy8ecZvNruiOl2H0O+NlhcHjIzObb5iNo="
         }
       ]
     },
